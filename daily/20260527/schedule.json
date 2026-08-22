@@ -1,0 +1,1177 @@
+{
+  "chain_day_index": 26,
+  "date": "20260527",
+  "kind": "publisher_day_schedule",
+  "mode": "historical",
+  "model_identity": {
+    "calibration_artifact_sha256": "7f7cf443f85c8463d1b1c664dbbf5905273dd8a56a846b28430a130a0d99bf8d",
+    "code_commit": "295a5d3a6ef4e08968cc5863a31528adf6df07f2",
+    "day_temperature": 0.445,
+    "day_temperature_history_races": 4001,
+    "feature_schema_sha256": "493193eecf5352e079a65f16189ee5dfdd0ebf26f40d783403f311eefa008b1a",
+    "policy_sha256": "b5ccf5c1c7ece6d4f2ef5397028e361b24bd564cb27927b3a7039d30d9bedf5e",
+    "production_model_sha256": "8c75a2ef0740307a5494a580a7055edf0f9d72c76fee24fb5521a5968fba2f0f",
+    "target_column": "target_win"
+  },
+  "prev_day": {
+    "date": "20260526",
+    "manifest_sha256": "6ddad55f8fcdfec6254011887f3463382403d0e93abde7db7324f00c4c44b2ba"
+  },
+  "prev_day_manifest_sha256": "6ddad55f8fcdfec6254011887f3463382403d0e93abde7db7324f00c4c44b2ba",
+  "race_count": 144,
+  "races": [
+    {
+      "deadline_at": "11:14",
+      "deadline_jst": "2026-05-27T11:14:00+09:00",
+      "race_id": "20260527_03_01",
+      "race_no": 1,
+      "stadium_code": "03",
+      "stadium_name": "江戸川"
+    },
+    {
+      "deadline_at": "11:46",
+      "deadline_jst": "2026-05-27T11:46:00+09:00",
+      "race_id": "20260527_03_02",
+      "race_no": 2,
+      "stadium_code": "03",
+      "stadium_name": "江戸川"
+    },
+    {
+      "deadline_at": "12:14",
+      "deadline_jst": "2026-05-27T12:14:00+09:00",
+      "race_id": "20260527_03_03",
+      "race_no": 3,
+      "stadium_code": "03",
+      "stadium_name": "江戸川"
+    },
+    {
+      "deadline_at": "12:40",
+      "deadline_jst": "2026-05-27T12:40:00+09:00",
+      "race_id": "20260527_03_04",
+      "race_no": 4,
+      "stadium_code": "03",
+      "stadium_name": "江戸川"
+    },
+    {
+      "deadline_at": "13:14",
+      "deadline_jst": "2026-05-27T13:14:00+09:00",
+      "race_id": "20260527_03_05",
+      "race_no": 5,
+      "stadium_code": "03",
+      "stadium_name": "江戸川"
+    },
+    {
+      "deadline_at": "13:40",
+      "deadline_jst": "2026-05-27T13:40:00+09:00",
+      "race_id": "20260527_03_06",
+      "race_no": 6,
+      "stadium_code": "03",
+      "stadium_name": "江戸川"
+    },
+    {
+      "deadline_at": "14:06",
+      "deadline_jst": "2026-05-27T14:06:00+09:00",
+      "race_id": "20260527_03_07",
+      "race_no": 7,
+      "stadium_code": "03",
+      "stadium_name": "江戸川"
+    },
+    {
+      "deadline_at": "14:32",
+      "deadline_jst": "2026-05-27T14:32:00+09:00",
+      "race_id": "20260527_03_08",
+      "race_no": 8,
+      "stadium_code": "03",
+      "stadium_name": "江戸川"
+    },
+    {
+      "deadline_at": "14:58",
+      "deadline_jst": "2026-05-27T14:58:00+09:00",
+      "race_id": "20260527_03_09",
+      "race_no": 9,
+      "stadium_code": "03",
+      "stadium_name": "江戸川"
+    },
+    {
+      "deadline_at": "15:26",
+      "deadline_jst": "2026-05-27T15:26:00+09:00",
+      "race_id": "20260527_03_10",
+      "race_no": 10,
+      "stadium_code": "03",
+      "stadium_name": "江戸川"
+    },
+    {
+      "deadline_at": "15:55",
+      "deadline_jst": "2026-05-27T15:55:00+09:00",
+      "race_id": "20260527_03_11",
+      "race_no": 11,
+      "stadium_code": "03",
+      "stadium_name": "江戸川"
+    },
+    {
+      "deadline_at": "16:25",
+      "deadline_jst": "2026-05-27T16:25:00+09:00",
+      "race_id": "20260527_03_12",
+      "race_no": 12,
+      "stadium_code": "03",
+      "stadium_name": "江戸川"
+    },
+    {
+      "deadline_at": "10:44",
+      "deadline_jst": "2026-05-27T10:44:00+09:00",
+      "race_id": "20260527_06_01",
+      "race_no": 1,
+      "stadium_code": "06",
+      "stadium_name": "浜名湖"
+    },
+    {
+      "deadline_at": "11:10",
+      "deadline_jst": "2026-05-27T11:10:00+09:00",
+      "race_id": "20260527_06_02",
+      "race_no": 2,
+      "stadium_code": "06",
+      "stadium_name": "浜名湖"
+    },
+    {
+      "deadline_at": "11:37",
+      "deadline_jst": "2026-05-27T11:37:00+09:00",
+      "race_id": "20260527_06_03",
+      "race_no": 3,
+      "stadium_code": "06",
+      "stadium_name": "浜名湖"
+    },
+    {
+      "deadline_at": "12:05",
+      "deadline_jst": "2026-05-27T12:05:00+09:00",
+      "race_id": "20260527_06_04",
+      "race_no": 4,
+      "stadium_code": "06",
+      "stadium_name": "浜名湖"
+    },
+    {
+      "deadline_at": "12:34",
+      "deadline_jst": "2026-05-27T12:34:00+09:00",
+      "race_id": "20260527_06_05",
+      "race_no": 5,
+      "stadium_code": "06",
+      "stadium_name": "浜名湖"
+    },
+    {
+      "deadline_at": "13:06",
+      "deadline_jst": "2026-05-27T13:06:00+09:00",
+      "race_id": "20260527_06_06",
+      "race_no": 6,
+      "stadium_code": "06",
+      "stadium_name": "浜名湖"
+    },
+    {
+      "deadline_at": "13:38",
+      "deadline_jst": "2026-05-27T13:38:00+09:00",
+      "race_id": "20260527_06_07",
+      "race_no": 7,
+      "stadium_code": "06",
+      "stadium_name": "浜名湖"
+    },
+    {
+      "deadline_at": "14:11",
+      "deadline_jst": "2026-05-27T14:11:00+09:00",
+      "race_id": "20260527_06_08",
+      "race_no": 8,
+      "stadium_code": "06",
+      "stadium_name": "浜名湖"
+    },
+    {
+      "deadline_at": "14:45",
+      "deadline_jst": "2026-05-27T14:45:00+09:00",
+      "race_id": "20260527_06_09",
+      "race_no": 9,
+      "stadium_code": "06",
+      "stadium_name": "浜名湖"
+    },
+    {
+      "deadline_at": "15:20",
+      "deadline_jst": "2026-05-27T15:20:00+09:00",
+      "race_id": "20260527_06_10",
+      "race_no": 10,
+      "stadium_code": "06",
+      "stadium_name": "浜名湖"
+    },
+    {
+      "deadline_at": "15:57",
+      "deadline_jst": "2026-05-27T15:57:00+09:00",
+      "race_id": "20260527_06_11",
+      "race_no": 11,
+      "stadium_code": "06",
+      "stadium_name": "浜名湖"
+    },
+    {
+      "deadline_at": "16:35",
+      "deadline_jst": "2026-05-27T16:35:00+09:00",
+      "race_id": "20260527_06_12",
+      "race_no": 12,
+      "stadium_code": "06",
+      "stadium_name": "浜名湖"
+    },
+    {
+      "deadline_at": "15:26",
+      "deadline_jst": "2026-05-27T15:26:00+09:00",
+      "race_id": "20260527_07_01",
+      "race_no": 1,
+      "stadium_code": "07",
+      "stadium_name": "蒲郡"
+    },
+    {
+      "deadline_at": "16:07",
+      "deadline_jst": "2026-05-27T16:07:00+09:00",
+      "race_id": "20260527_07_02",
+      "race_no": 2,
+      "stadium_code": "07",
+      "stadium_name": "蒲郡"
+    },
+    {
+      "deadline_at": "16:47",
+      "deadline_jst": "2026-05-27T16:47:00+09:00",
+      "race_id": "20260527_07_03",
+      "race_no": 3,
+      "stadium_code": "07",
+      "stadium_name": "蒲郡"
+    },
+    {
+      "deadline_at": "17:18",
+      "deadline_jst": "2026-05-27T17:18:00+09:00",
+      "race_id": "20260527_07_04",
+      "race_no": 4,
+      "stadium_code": "07",
+      "stadium_name": "蒲郡"
+    },
+    {
+      "deadline_at": "17:43",
+      "deadline_jst": "2026-05-27T17:43:00+09:00",
+      "race_id": "20260527_07_05",
+      "race_no": 5,
+      "stadium_code": "07",
+      "stadium_name": "蒲郡"
+    },
+    {
+      "deadline_at": "18:08",
+      "deadline_jst": "2026-05-27T18:08:00+09:00",
+      "race_id": "20260527_07_06",
+      "race_no": 6,
+      "stadium_code": "07",
+      "stadium_name": "蒲郡"
+    },
+    {
+      "deadline_at": "18:33",
+      "deadline_jst": "2026-05-27T18:33:00+09:00",
+      "race_id": "20260527_07_07",
+      "race_no": 7,
+      "stadium_code": "07",
+      "stadium_name": "蒲郡"
+    },
+    {
+      "deadline_at": "18:58",
+      "deadline_jst": "2026-05-27T18:58:00+09:00",
+      "race_id": "20260527_07_08",
+      "race_no": 8,
+      "stadium_code": "07",
+      "stadium_name": "蒲郡"
+    },
+    {
+      "deadline_at": "19:24",
+      "deadline_jst": "2026-05-27T19:24:00+09:00",
+      "race_id": "20260527_07_09",
+      "race_no": 9,
+      "stadium_code": "07",
+      "stadium_name": "蒲郡"
+    },
+    {
+      "deadline_at": "19:50",
+      "deadline_jst": "2026-05-27T19:50:00+09:00",
+      "race_id": "20260527_07_10",
+      "race_no": 10,
+      "stadium_code": "07",
+      "stadium_name": "蒲郡"
+    },
+    {
+      "deadline_at": "20:17",
+      "deadline_jst": "2026-05-27T20:17:00+09:00",
+      "race_id": "20260527_07_11",
+      "race_no": 11,
+      "stadium_code": "07",
+      "stadium_name": "蒲郡"
+    },
+    {
+      "deadline_at": "20:45",
+      "deadline_jst": "2026-05-27T20:45:00+09:00",
+      "race_id": "20260527_07_12",
+      "race_no": 12,
+      "stadium_code": "07",
+      "stadium_name": "蒲郡"
+    },
+    {
+      "deadline_at": "10:31",
+      "deadline_jst": "2026-05-27T10:31:00+09:00",
+      "race_id": "20260527_08_01",
+      "race_no": 1,
+      "stadium_code": "08",
+      "stadium_name": "常滑"
+    },
+    {
+      "deadline_at": "10:57",
+      "deadline_jst": "2026-05-27T10:57:00+09:00",
+      "race_id": "20260527_08_02",
+      "race_no": 2,
+      "stadium_code": "08",
+      "stadium_name": "常滑"
+    },
+    {
+      "deadline_at": "11:25",
+      "deadline_jst": "2026-05-27T11:25:00+09:00",
+      "race_id": "20260527_08_03",
+      "race_no": 3,
+      "stadium_code": "08",
+      "stadium_name": "常滑"
+    },
+    {
+      "deadline_at": "11:51",
+      "deadline_jst": "2026-05-27T11:51:00+09:00",
+      "race_id": "20260527_08_04",
+      "race_no": 4,
+      "stadium_code": "08",
+      "stadium_name": "常滑"
+    },
+    {
+      "deadline_at": "12:18",
+      "deadline_jst": "2026-05-27T12:18:00+09:00",
+      "race_id": "20260527_08_05",
+      "race_no": 5,
+      "stadium_code": "08",
+      "stadium_name": "常滑"
+    },
+    {
+      "deadline_at": "12:48",
+      "deadline_jst": "2026-05-27T12:48:00+09:00",
+      "race_id": "20260527_08_06",
+      "race_no": 6,
+      "stadium_code": "08",
+      "stadium_name": "常滑"
+    },
+    {
+      "deadline_at": "13:15",
+      "deadline_jst": "2026-05-27T13:15:00+09:00",
+      "race_id": "20260527_08_07",
+      "race_no": 7,
+      "stadium_code": "08",
+      "stadium_name": "常滑"
+    },
+    {
+      "deadline_at": "13:43",
+      "deadline_jst": "2026-05-27T13:43:00+09:00",
+      "race_id": "20260527_08_08",
+      "race_no": 8,
+      "stadium_code": "08",
+      "stadium_name": "常滑"
+    },
+    {
+      "deadline_at": "14:09",
+      "deadline_jst": "2026-05-27T14:09:00+09:00",
+      "race_id": "20260527_08_09",
+      "race_no": 9,
+      "stadium_code": "08",
+      "stadium_name": "常滑"
+    },
+    {
+      "deadline_at": "14:41",
+      "deadline_jst": "2026-05-27T14:41:00+09:00",
+      "race_id": "20260527_08_10",
+      "race_no": 10,
+      "stadium_code": "08",
+      "stadium_name": "常滑"
+    },
+    {
+      "deadline_at": "15:16",
+      "deadline_jst": "2026-05-27T15:16:00+09:00",
+      "race_id": "20260527_08_11",
+      "race_no": 11,
+      "stadium_code": "08",
+      "stadium_name": "常滑"
+    },
+    {
+      "deadline_at": "15:52",
+      "deadline_jst": "2026-05-27T15:52:00+09:00",
+      "race_id": "20260527_08_12",
+      "race_no": 12,
+      "stadium_code": "08",
+      "stadium_name": "常滑"
+    },
+    {
+      "deadline_at": "08:39",
+      "deadline_jst": "2026-05-27T08:39:00+09:00",
+      "race_id": "20260527_10_01",
+      "race_no": 1,
+      "stadium_code": "10",
+      "stadium_name": "三国"
+    },
+    {
+      "deadline_at": "09:05",
+      "deadline_jst": "2026-05-27T09:05:00+09:00",
+      "race_id": "20260527_10_02",
+      "race_no": 2,
+      "stadium_code": "10",
+      "stadium_name": "三国"
+    },
+    {
+      "deadline_at": "09:31",
+      "deadline_jst": "2026-05-27T09:31:00+09:00",
+      "race_id": "20260527_10_03",
+      "race_no": 3,
+      "stadium_code": "10",
+      "stadium_name": "三国"
+    },
+    {
+      "deadline_at": "09:57",
+      "deadline_jst": "2026-05-27T09:57:00+09:00",
+      "race_id": "20260527_10_04",
+      "race_no": 4,
+      "stadium_code": "10",
+      "stadium_name": "三国"
+    },
+    {
+      "deadline_at": "10:23",
+      "deadline_jst": "2026-05-27T10:23:00+09:00",
+      "race_id": "20260527_10_05",
+      "race_no": 5,
+      "stadium_code": "10",
+      "stadium_name": "三国"
+    },
+    {
+      "deadline_at": "10:50",
+      "deadline_jst": "2026-05-27T10:50:00+09:00",
+      "race_id": "20260527_10_06",
+      "race_no": 6,
+      "stadium_code": "10",
+      "stadium_name": "三国"
+    },
+    {
+      "deadline_at": "11:21",
+      "deadline_jst": "2026-05-27T11:21:00+09:00",
+      "race_id": "20260527_10_07",
+      "race_no": 7,
+      "stadium_code": "10",
+      "stadium_name": "三国"
+    },
+    {
+      "deadline_at": "11:53",
+      "deadline_jst": "2026-05-27T11:53:00+09:00",
+      "race_id": "20260527_10_08",
+      "race_no": 8,
+      "stadium_code": "10",
+      "stadium_name": "三国"
+    },
+    {
+      "deadline_at": "12:24",
+      "deadline_jst": "2026-05-27T12:24:00+09:00",
+      "race_id": "20260527_10_09",
+      "race_no": 9,
+      "stadium_code": "10",
+      "stadium_name": "三国"
+    },
+    {
+      "deadline_at": "12:56",
+      "deadline_jst": "2026-05-27T12:56:00+09:00",
+      "race_id": "20260527_10_10",
+      "race_no": 10,
+      "stadium_code": "10",
+      "stadium_name": "三国"
+    },
+    {
+      "deadline_at": "13:31",
+      "deadline_jst": "2026-05-27T13:31:00+09:00",
+      "race_id": "20260527_10_11",
+      "race_no": 11,
+      "stadium_code": "10",
+      "stadium_name": "三国"
+    },
+    {
+      "deadline_at": "14:04",
+      "deadline_jst": "2026-05-27T14:04:00+09:00",
+      "race_id": "20260527_10_12",
+      "race_no": 12,
+      "stadium_code": "10",
+      "stadium_name": "三国"
+    },
+    {
+      "deadline_at": "15:28",
+      "deadline_jst": "2026-05-27T15:28:00+09:00",
+      "race_id": "20260527_12_01",
+      "race_no": 1,
+      "stadium_code": "12",
+      "stadium_name": "住之江"
+    },
+    {
+      "deadline_at": "16:09",
+      "deadline_jst": "2026-05-27T16:09:00+09:00",
+      "race_id": "20260527_12_02",
+      "race_no": 2,
+      "stadium_code": "12",
+      "stadium_name": "住之江"
+    },
+    {
+      "deadline_at": "16:42",
+      "deadline_jst": "2026-05-27T16:42:00+09:00",
+      "race_id": "20260527_12_03",
+      "race_no": 3,
+      "stadium_code": "12",
+      "stadium_name": "住之江"
+    },
+    {
+      "deadline_at": "17:12",
+      "deadline_jst": "2026-05-27T17:12:00+09:00",
+      "race_id": "20260527_12_04",
+      "race_no": 4,
+      "stadium_code": "12",
+      "stadium_name": "住之江"
+    },
+    {
+      "deadline_at": "17:37",
+      "deadline_jst": "2026-05-27T17:37:00+09:00",
+      "race_id": "20260527_12_05",
+      "race_no": 5,
+      "stadium_code": "12",
+      "stadium_name": "住之江"
+    },
+    {
+      "deadline_at": "18:02",
+      "deadline_jst": "2026-05-27T18:02:00+09:00",
+      "race_id": "20260527_12_06",
+      "race_no": 6,
+      "stadium_code": "12",
+      "stadium_name": "住之江"
+    },
+    {
+      "deadline_at": "18:27",
+      "deadline_jst": "2026-05-27T18:27:00+09:00",
+      "race_id": "20260527_12_07",
+      "race_no": 7,
+      "stadium_code": "12",
+      "stadium_name": "住之江"
+    },
+    {
+      "deadline_at": "18:52",
+      "deadline_jst": "2026-05-27T18:52:00+09:00",
+      "race_id": "20260527_12_08",
+      "race_no": 8,
+      "stadium_code": "12",
+      "stadium_name": "住之江"
+    },
+    {
+      "deadline_at": "19:18",
+      "deadline_jst": "2026-05-27T19:18:00+09:00",
+      "race_id": "20260527_12_09",
+      "race_no": 9,
+      "stadium_code": "12",
+      "stadium_name": "住之江"
+    },
+    {
+      "deadline_at": "19:44",
+      "deadline_jst": "2026-05-27T19:44:00+09:00",
+      "race_id": "20260527_12_10",
+      "race_no": 10,
+      "stadium_code": "12",
+      "stadium_name": "住之江"
+    },
+    {
+      "deadline_at": "20:11",
+      "deadline_jst": "2026-05-27T20:11:00+09:00",
+      "race_id": "20260527_12_11",
+      "race_no": 11,
+      "stadium_code": "12",
+      "stadium_name": "住之江"
+    },
+    {
+      "deadline_at": "20:41",
+      "deadline_jst": "2026-05-27T20:41:00+09:00",
+      "race_id": "20260527_12_12",
+      "race_no": 12,
+      "stadium_code": "12",
+      "stadium_name": "住之江"
+    },
+    {
+      "deadline_at": "10:38",
+      "deadline_jst": "2026-05-27T10:38:00+09:00",
+      "race_id": "20260527_13_01",
+      "race_no": 1,
+      "stadium_code": "13",
+      "stadium_name": "尼崎"
+    },
+    {
+      "deadline_at": "11:05",
+      "deadline_jst": "2026-05-27T11:05:00+09:00",
+      "race_id": "20260527_13_02",
+      "race_no": 2,
+      "stadium_code": "13",
+      "stadium_name": "尼崎"
+    },
+    {
+      "deadline_at": "11:32",
+      "deadline_jst": "2026-05-27T11:32:00+09:00",
+      "race_id": "20260527_13_03",
+      "race_no": 3,
+      "stadium_code": "13",
+      "stadium_name": "尼崎"
+    },
+    {
+      "deadline_at": "12:00",
+      "deadline_jst": "2026-05-27T12:00:00+09:00",
+      "race_id": "20260527_13_04",
+      "race_no": 4,
+      "stadium_code": "13",
+      "stadium_name": "尼崎"
+    },
+    {
+      "deadline_at": "12:26",
+      "deadline_jst": "2026-05-27T12:26:00+09:00",
+      "race_id": "20260527_13_05",
+      "race_no": 5,
+      "stadium_code": "13",
+      "stadium_name": "尼崎"
+    },
+    {
+      "deadline_at": "12:52",
+      "deadline_jst": "2026-05-27T12:52:00+09:00",
+      "race_id": "20260527_13_06",
+      "race_no": 6,
+      "stadium_code": "13",
+      "stadium_name": "尼崎"
+    },
+    {
+      "deadline_at": "13:24",
+      "deadline_jst": "2026-05-27T13:24:00+09:00",
+      "race_id": "20260527_13_07",
+      "race_no": 7,
+      "stadium_code": "13",
+      "stadium_name": "尼崎"
+    },
+    {
+      "deadline_at": "13:58",
+      "deadline_jst": "2026-05-27T13:58:00+09:00",
+      "race_id": "20260527_13_08",
+      "race_no": 8,
+      "stadium_code": "13",
+      "stadium_name": "尼崎"
+    },
+    {
+      "deadline_at": "14:34",
+      "deadline_jst": "2026-05-27T14:34:00+09:00",
+      "race_id": "20260527_13_09",
+      "race_no": 9,
+      "stadium_code": "13",
+      "stadium_name": "尼崎"
+    },
+    {
+      "deadline_at": "15:09",
+      "deadline_jst": "2026-05-27T15:09:00+09:00",
+      "race_id": "20260527_13_10",
+      "race_no": 10,
+      "stadium_code": "13",
+      "stadium_name": "尼崎"
+    },
+    {
+      "deadline_at": "15:47",
+      "deadline_jst": "2026-05-27T15:47:00+09:00",
+      "race_id": "20260527_13_11",
+      "race_no": 11,
+      "stadium_code": "13",
+      "stadium_name": "尼崎"
+    },
+    {
+      "deadline_at": "16:23",
+      "deadline_jst": "2026-05-27T16:23:00+09:00",
+      "race_id": "20260527_13_12",
+      "race_no": 12,
+      "stadium_code": "13",
+      "stadium_name": "尼崎"
+    },
+    {
+      "deadline_at": "15:24",
+      "deadline_jst": "2026-05-27T15:24:00+09:00",
+      "race_id": "20260527_15_01",
+      "race_no": 1,
+      "stadium_code": "15",
+      "stadium_name": "丸亀"
+    },
+    {
+      "deadline_at": "15:49",
+      "deadline_jst": "2026-05-27T15:49:00+09:00",
+      "race_id": "20260527_15_02",
+      "race_no": 2,
+      "stadium_code": "15",
+      "stadium_name": "丸亀"
+    },
+    {
+      "deadline_at": "16:28",
+      "deadline_jst": "2026-05-27T16:28:00+09:00",
+      "race_id": "20260527_15_03",
+      "race_no": 3,
+      "stadium_code": "15",
+      "stadium_name": "丸亀"
+    },
+    {
+      "deadline_at": "17:00",
+      "deadline_jst": "2026-05-27T17:00:00+09:00",
+      "race_id": "20260527_15_04",
+      "race_no": 4,
+      "stadium_code": "15",
+      "stadium_name": "丸亀"
+    },
+    {
+      "deadline_at": "17:24",
+      "deadline_jst": "2026-05-27T17:24:00+09:00",
+      "race_id": "20260527_15_05",
+      "race_no": 5,
+      "stadium_code": "15",
+      "stadium_name": "丸亀"
+    },
+    {
+      "deadline_at": "17:49",
+      "deadline_jst": "2026-05-27T17:49:00+09:00",
+      "race_id": "20260527_15_06",
+      "race_no": 6,
+      "stadium_code": "15",
+      "stadium_name": "丸亀"
+    },
+    {
+      "deadline_at": "18:14",
+      "deadline_jst": "2026-05-27T18:14:00+09:00",
+      "race_id": "20260527_15_07",
+      "race_no": 7,
+      "stadium_code": "15",
+      "stadium_name": "丸亀"
+    },
+    {
+      "deadline_at": "18:39",
+      "deadline_jst": "2026-05-27T18:39:00+09:00",
+      "race_id": "20260527_15_08",
+      "race_no": 8,
+      "stadium_code": "15",
+      "stadium_name": "丸亀"
+    },
+    {
+      "deadline_at": "19:05",
+      "deadline_jst": "2026-05-27T19:05:00+09:00",
+      "race_id": "20260527_15_09",
+      "race_no": 9,
+      "stadium_code": "15",
+      "stadium_name": "丸亀"
+    },
+    {
+      "deadline_at": "19:31",
+      "deadline_jst": "2026-05-27T19:31:00+09:00",
+      "race_id": "20260527_15_10",
+      "race_no": 10,
+      "stadium_code": "15",
+      "stadium_name": "丸亀"
+    },
+    {
+      "deadline_at": "19:59",
+      "deadline_jst": "2026-05-27T19:59:00+09:00",
+      "race_id": "20260527_15_11",
+      "race_no": 11,
+      "stadium_code": "15",
+      "stadium_name": "丸亀"
+    },
+    {
+      "deadline_at": "20:30",
+      "deadline_jst": "2026-05-27T20:30:00+09:00",
+      "race_id": "20260527_15_12",
+      "race_no": 12,
+      "stadium_code": "15",
+      "stadium_name": "丸亀"
+    },
+    {
+      "deadline_at": "10:52",
+      "deadline_jst": "2026-05-27T10:52:00+09:00",
+      "race_id": "20260527_17_01",
+      "race_no": 1,
+      "stadium_code": "17",
+      "stadium_name": "宮島"
+    },
+    {
+      "deadline_at": "11:17",
+      "deadline_jst": "2026-05-27T11:17:00+09:00",
+      "race_id": "20260527_17_02",
+      "race_no": 2,
+      "stadium_code": "17",
+      "stadium_name": "宮島"
+    },
+    {
+      "deadline_at": "11:46",
+      "deadline_jst": "2026-05-27T11:46:00+09:00",
+      "race_id": "20260527_17_03",
+      "race_no": 3,
+      "stadium_code": "17",
+      "stadium_name": "宮島"
+    },
+    {
+      "deadline_at": "12:15",
+      "deadline_jst": "2026-05-27T12:15:00+09:00",
+      "race_id": "20260527_17_04",
+      "race_no": 4,
+      "stadium_code": "17",
+      "stadium_name": "宮島"
+    },
+    {
+      "deadline_at": "12:44",
+      "deadline_jst": "2026-05-27T12:44:00+09:00",
+      "race_id": "20260527_17_05",
+      "race_no": 5,
+      "stadium_code": "17",
+      "stadium_name": "宮島"
+    },
+    {
+      "deadline_at": "13:19",
+      "deadline_jst": "2026-05-27T13:19:00+09:00",
+      "race_id": "20260527_17_06",
+      "race_no": 6,
+      "stadium_code": "17",
+      "stadium_name": "宮島"
+    },
+    {
+      "deadline_at": "13:47",
+      "deadline_jst": "2026-05-27T13:47:00+09:00",
+      "race_id": "20260527_17_07",
+      "race_no": 7,
+      "stadium_code": "17",
+      "stadium_name": "宮島"
+    },
+    {
+      "deadline_at": "14:22",
+      "deadline_jst": "2026-05-27T14:22:00+09:00",
+      "race_id": "20260527_17_08",
+      "race_no": 8,
+      "stadium_code": "17",
+      "stadium_name": "宮島"
+    },
+    {
+      "deadline_at": "15:01",
+      "deadline_jst": "2026-05-27T15:01:00+09:00",
+      "race_id": "20260527_17_09",
+      "race_no": 9,
+      "stadium_code": "17",
+      "stadium_name": "宮島"
+    },
+    {
+      "deadline_at": "15:38",
+      "deadline_jst": "2026-05-27T15:38:00+09:00",
+      "race_id": "20260527_17_10",
+      "race_no": 10,
+      "stadium_code": "17",
+      "stadium_name": "宮島"
+    },
+    {
+      "deadline_at": "16:05",
+      "deadline_jst": "2026-05-27T16:05:00+09:00",
+      "race_id": "20260527_17_11",
+      "race_no": 11,
+      "stadium_code": "17",
+      "stadium_name": "宮島"
+    },
+    {
+      "deadline_at": "16:53",
+      "deadline_jst": "2026-05-27T16:53:00+09:00",
+      "race_id": "20260527_17_12",
+      "race_no": 12,
+      "stadium_code": "17",
+      "stadium_name": "宮島"
+    },
+    {
+      "deadline_at": "08:32",
+      "deadline_jst": "2026-05-27T08:32:00+09:00",
+      "race_id": "20260527_18_01",
+      "race_no": 1,
+      "stadium_code": "18",
+      "stadium_name": "徳山"
+    },
+    {
+      "deadline_at": "08:58",
+      "deadline_jst": "2026-05-27T08:58:00+09:00",
+      "race_id": "20260527_18_02",
+      "race_no": 2,
+      "stadium_code": "18",
+      "stadium_name": "徳山"
+    },
+    {
+      "deadline_at": "09:24",
+      "deadline_jst": "2026-05-27T09:24:00+09:00",
+      "race_id": "20260527_18_03",
+      "race_no": 3,
+      "stadium_code": "18",
+      "stadium_name": "徳山"
+    },
+    {
+      "deadline_at": "09:50",
+      "deadline_jst": "2026-05-27T09:50:00+09:00",
+      "race_id": "20260527_18_04",
+      "race_no": 4,
+      "stadium_code": "18",
+      "stadium_name": "徳山"
+    },
+    {
+      "deadline_at": "10:16",
+      "deadline_jst": "2026-05-27T10:16:00+09:00",
+      "race_id": "20260527_18_05",
+      "race_no": 5,
+      "stadium_code": "18",
+      "stadium_name": "徳山"
+    },
+    {
+      "deadline_at": "10:47",
+      "deadline_jst": "2026-05-27T10:47:00+09:00",
+      "race_id": "20260527_18_06",
+      "race_no": 6,
+      "stadium_code": "18",
+      "stadium_name": "徳山"
+    },
+    {
+      "deadline_at": "11:18",
+      "deadline_jst": "2026-05-27T11:18:00+09:00",
+      "race_id": "20260527_18_07",
+      "race_no": 7,
+      "stadium_code": "18",
+      "stadium_name": "徳山"
+    },
+    {
+      "deadline_at": "11:48",
+      "deadline_jst": "2026-05-27T11:48:00+09:00",
+      "race_id": "20260527_18_08",
+      "race_no": 8,
+      "stadium_code": "18",
+      "stadium_name": "徳山"
+    },
+    {
+      "deadline_at": "12:21",
+      "deadline_jst": "2026-05-27T12:21:00+09:00",
+      "race_id": "20260527_18_09",
+      "race_no": 9,
+      "stadium_code": "18",
+      "stadium_name": "徳山"
+    },
+    {
+      "deadline_at": "12:53",
+      "deadline_jst": "2026-05-27T12:53:00+09:00",
+      "race_id": "20260527_18_10",
+      "race_no": 10,
+      "stadium_code": "18",
+      "stadium_name": "徳山"
+    },
+    {
+      "deadline_at": "13:26",
+      "deadline_jst": "2026-05-27T13:26:00+09:00",
+      "race_id": "20260527_18_11",
+      "race_no": 11,
+      "stadium_code": "18",
+      "stadium_name": "徳山"
+    },
+    {
+      "deadline_at": "14:00",
+      "deadline_jst": "2026-05-27T14:00:00+09:00",
+      "race_id": "20260527_18_12",
+      "race_no": 12,
+      "stadium_code": "18",
+      "stadium_name": "徳山"
+    },
+    {
+      "deadline_at": "08:46",
+      "deadline_jst": "2026-05-27T08:46:00+09:00",
+      "race_id": "20260527_21_01",
+      "race_no": 1,
+      "stadium_code": "21",
+      "stadium_name": "芦屋"
+    },
+    {
+      "deadline_at": "09:12",
+      "deadline_jst": "2026-05-27T09:12:00+09:00",
+      "race_id": "20260527_21_02",
+      "race_no": 2,
+      "stadium_code": "21",
+      "stadium_name": "芦屋"
+    },
+    {
+      "deadline_at": "09:38",
+      "deadline_jst": "2026-05-27T09:38:00+09:00",
+      "race_id": "20260527_21_03",
+      "race_no": 3,
+      "stadium_code": "21",
+      "stadium_name": "芦屋"
+    },
+    {
+      "deadline_at": "10:04",
+      "deadline_jst": "2026-05-27T10:04:00+09:00",
+      "race_id": "20260527_21_04",
+      "race_no": 4,
+      "stadium_code": "21",
+      "stadium_name": "芦屋"
+    },
+    {
+      "deadline_at": "10:30",
+      "deadline_jst": "2026-05-27T10:30:00+09:00",
+      "race_id": "20260527_21_05",
+      "race_no": 5,
+      "stadium_code": "21",
+      "stadium_name": "芦屋"
+    },
+    {
+      "deadline_at": "10:59",
+      "deadline_jst": "2026-05-27T10:59:00+09:00",
+      "race_id": "20260527_21_06",
+      "race_no": 6,
+      "stadium_code": "21",
+      "stadium_name": "芦屋"
+    },
+    {
+      "deadline_at": "11:27",
+      "deadline_jst": "2026-05-27T11:27:00+09:00",
+      "race_id": "20260527_21_07",
+      "race_no": 7,
+      "stadium_code": "21",
+      "stadium_name": "芦屋"
+    },
+    {
+      "deadline_at": "11:56",
+      "deadline_jst": "2026-05-27T11:56:00+09:00",
+      "race_id": "20260527_21_08",
+      "race_no": 8,
+      "stadium_code": "21",
+      "stadium_name": "芦屋"
+    },
+    {
+      "deadline_at": "12:27",
+      "deadline_jst": "2026-05-27T12:27:00+09:00",
+      "race_id": "20260527_21_09",
+      "race_no": 9,
+      "stadium_code": "21",
+      "stadium_name": "芦屋"
+    },
+    {
+      "deadline_at": "12:58",
+      "deadline_jst": "2026-05-27T12:58:00+09:00",
+      "race_id": "20260527_21_10",
+      "race_no": 10,
+      "stadium_code": "21",
+      "stadium_name": "芦屋"
+    },
+    {
+      "deadline_at": "13:35",
+      "deadline_jst": "2026-05-27T13:35:00+09:00",
+      "race_id": "20260527_21_11",
+      "race_no": 11,
+      "stadium_code": "21",
+      "stadium_name": "芦屋"
+    },
+    {
+      "deadline_at": "14:15",
+      "deadline_jst": "2026-05-27T14:15:00+09:00",
+      "race_id": "20260527_21_12",
+      "race_no": 12,
+      "stadium_code": "21",
+      "stadium_name": "芦屋"
+    },
+    {
+      "deadline_at": "15:30",
+      "deadline_jst": "2026-05-27T15:30:00+09:00",
+      "race_id": "20260527_24_01",
+      "race_no": 1,
+      "stadium_code": "24",
+      "stadium_name": "大村"
+    },
+    {
+      "deadline_at": "16:02",
+      "deadline_jst": "2026-05-27T16:02:00+09:00",
+      "race_id": "20260527_24_02",
+      "race_no": 2,
+      "stadium_code": "24",
+      "stadium_name": "大村"
+    },
+    {
+      "deadline_at": "16:30",
+      "deadline_jst": "2026-05-27T16:30:00+09:00",
+      "race_id": "20260527_24_03",
+      "race_no": 3,
+      "stadium_code": "24",
+      "stadium_name": "大村"
+    },
+    {
+      "deadline_at": "17:06",
+      "deadline_jst": "2026-05-27T17:06:00+09:00",
+      "race_id": "20260527_24_04",
+      "race_no": 4,
+      "stadium_code": "24",
+      "stadium_name": "大村"
+    },
+    {
+      "deadline_at": "17:31",
+      "deadline_jst": "2026-05-27T17:31:00+09:00",
+      "race_id": "20260527_24_05",
+      "race_no": 5,
+      "stadium_code": "24",
+      "stadium_name": "大村"
+    },
+    {
+      "deadline_at": "17:56",
+      "deadline_jst": "2026-05-27T17:56:00+09:00",
+      "race_id": "20260527_24_06",
+      "race_no": 6,
+      "stadium_code": "24",
+      "stadium_name": "大村"
+    },
+    {
+      "deadline_at": "18:21",
+      "deadline_jst": "2026-05-27T18:21:00+09:00",
+      "race_id": "20260527_24_07",
+      "race_no": 7,
+      "stadium_code": "24",
+      "stadium_name": "大村"
+    },
+    {
+      "deadline_at": "18:46",
+      "deadline_jst": "2026-05-27T18:46:00+09:00",
+      "race_id": "20260527_24_08",
+      "race_no": 8,
+      "stadium_code": "24",
+      "stadium_name": "大村"
+    },
+    {
+      "deadline_at": "19:12",
+      "deadline_jst": "2026-05-27T19:12:00+09:00",
+      "race_id": "20260527_24_09",
+      "race_no": 9,
+      "stadium_code": "24",
+      "stadium_name": "大村"
+    },
+    {
+      "deadline_at": "19:38",
+      "deadline_jst": "2026-05-27T19:38:00+09:00",
+      "race_id": "20260527_24_10",
+      "race_no": 10,
+      "stadium_code": "24",
+      "stadium_name": "大村"
+    },
+    {
+      "deadline_at": "20:06",
+      "deadline_jst": "2026-05-27T20:06:00+09:00",
+      "race_id": "20260527_24_11",
+      "race_no": 11,
+      "stadium_code": "24",
+      "stadium_name": "大村"
+    },
+    {
+      "deadline_at": "20:37",
+      "deadline_jst": "2026-05-27T20:37:00+09:00",
+      "race_id": "20260527_24_12",
+      "race_no": 12,
+      "stadium_code": "24",
+      "stadium_name": "大村"
+    }
+  ],
+  "schema_version": 1
+}

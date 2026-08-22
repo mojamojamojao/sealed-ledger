@@ -1,0 +1,49 @@
+{
+  "kind": "kyote_publisher_config_forward_probe_v1",
+  "window": [
+    "20260501",
+    "20260819"
+  ],
+  "regenerate": "python src/scripts/research/run_publisher_config_forward_probe_v1.py",
+  "panel": "reports\\research\\kyote_publisher_config_forward_probe_v1_panel.parquet",
+  "winner_log_loss_vs_seal_time_market": {
+    "n_races": 8619,
+    "raw_only": 1.2013,
+    "raw_wfT": 1.2009,
+    "raw_T4.42_spring": 2.7012,
+    "staged_only": 1.6942,
+    "staged_dayT": 1.5729,
+    "market": 1.2798,
+    "raw_wfT_minus_market_nats": 0.0789,
+    "se": 0.009
+  },
+  "top1_hit_rate": {
+    "raw": 0.5805,
+    "market_seal_time": 0.5525,
+    "n_races": 8619
+  },
+  "winner_log_loss_vs_closing_market": {
+    "n_races": 13848,
+    "raw_wfT": 1.2905,
+    "closing_market": 1.3371,
+    "raw_wfT_minus_closing_nats": 0.0466,
+    "se": 0.0065
+  },
+  "calibration_forward_band_method": {
+    "raw_wfT_ece": 0.0036,
+    "raw_wfT_n_races": 15444,
+    "raw_wfT_ece_same_set_as_market": 0.0041,
+    "market_seal_time_ece": 0.0081,
+    "market_n_races": 8619
+  },
+  "walkforward_temperature_range": [
+    0.9775,
+    1.0437
+  ],
+  "decision": "OFFICIAL_BASE = raw (src/kyote/publisher/config.py); declared identity change sealed in every schedule/payload",
+  "caveats": [
+    "spring in-window evidence (+0.041 nats with T=4.42) does not transfer: the same T applied forward scores far worse; only adaptive walk-forward temperature is safe",
+    "the RETRO chain (schema v1) seals the staged config only; the same-window raw probabilities live in this artifact's panel, not on the chain — both configs are sealed daily from day 1 onward",
+    "this is a reproduction measurement; the forward scoreboard the ledger accumulates is the real record"
+  ]
+}

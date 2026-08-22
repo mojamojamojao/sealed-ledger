@@ -1,0 +1,35 @@
+{
+  "as_of": "2026-07-01T13:05:00+09:00",
+  "deadline_jst": "2026-07-01T13:05:00+09:00",
+  "kind": "publisher_race_payload",
+  "market_sha256": "e7ac9bc3f0eb55fb101397910b8d4b6175fa735f493307403ca04af0a382b1f9",
+  "market_snapshot_at": "2026-07-01T13:03:47",
+  "marks": {
+    "1": "◎",
+    "2": "○",
+    "4": "▲",
+    "6": "△"
+  },
+  "mode": "historical",
+  "probabilities": {
+    "1": 0.28872,
+    "2": 0.260528,
+    "3": 0.11925,
+    "4": 0.17564,
+    "5": 7e-06,
+    "6": 0.155854
+  },
+  "probabilities_pre_temperature": {
+    "1": 0.421328,
+    "2": 0.32496,
+    "3": 0.045077,
+    "4": 0.119956,
+    "5": 0.0,
+    "6": 0.088679
+  },
+  "race_id": "20260701_23_10",
+  "schedule_sha256": "7b1f32c1d568c052b83c2c20a5d61f1fc8b30c9c10bdb5af5443fe87eadeb1c4",
+  "schema_version": 1,
+  "temperature": 0.395625,
+  "temperature_history_races": 9188
+}
