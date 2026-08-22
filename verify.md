@@ -3,7 +3,7 @@
 第三者がこの台帳を検証する手順です。3行で終わります。
 
 ```bash
-git clone --depth=1 https://github.com/OWNER/REPO ledger && cd ledger
+git clone --depth=1 https://github.com/mojamojamojao/sealed-ledger ledger && cd ledger
 python verify_chain.py            # 全日のハッシュ連鎖と宣言レース数を再計算して照合
 openssl ts -verify -data daily/20260822/races/20260822_02_01.json -in daily/20260822/races/20260822_02_01.json.tsr -CAfile "$(python -c 'import certifi, sys; sys.stdout.write(certifi.where())')"
 ```
