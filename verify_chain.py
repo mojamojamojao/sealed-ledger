@@ -64,6 +64,9 @@ def verify_day(day_dir: Path, expected_prev: str) -> str | None:
     if schedule.get("prev_day_manifest_sha256") != expected_prev:
         fail(f"{date}: previous-day chain link mismatch")
     declared = [str(r["race_id"]) for r in schedule.get("races", [])]
+    deadlines = {
+        str(r["race_id"]): str(r.get("deadline_jst") or "") for r in schedule.get("races", [])
+    }
     if len(set(declared)) != schedule.get("race_count"):
         fail(f"{date}: race_count does not match declared races")
 
@@ -84,6 +87,18 @@ def verify_day(day_dir: Path, expected_prev: str) -> str | None:
                 fail(f"{date}: sealed race {race_id} is not on the schedule")
             if record.get("schedule_sha256") != schedule_sha:
                 fail(f"{date}: {path.name} bound to a different schedule")
+            if not is_market:
+                # The promise: nothing is sealed after its deadline. Live seals
+                # must be strictly earlier; retrospective days are rebuilt at
+                # the betting close, so equality is expected there.
+                as_of = str(record.get("as_of") or "")
+                deadline = deadlines.get(race_id, "")
+                if not as_of or not deadline:
+                    fail(f"{date}: {race_id} has no as_of/deadline to check")
+                if as_of > deadline or (
+                    as_of == deadline and str(record.get("mode")) == "live"
+                ):
+                    fail(f"{date}: {race_id} sealed at {as_of}, not before deadline {deadline}")
             digest = canonical_sha256(record)
             (markets if is_market else payloads)[race_id] = digest
     manifest_path = day_dir / "manifest.json"

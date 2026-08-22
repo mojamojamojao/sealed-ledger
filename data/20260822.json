@@ -380,15 +380,144 @@
    "settlement": null
   },
   "20260822_02_09": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:36:04+09:00",
+    "deadline_jst": "2026-08-22T14:48:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "af2d210d5d60cc37c355436e01a5cfcacac4d9699d3adc5597255523a3a0cddf",
+    "market_snapshot_at": "2026-08-22T14:33:06",
+    "marks": {
+     "1": "◎",
+     "2": "▲",
+     "3": "○",
+     "5": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.505258,
+     "2": 0.139583,
+     "3": 0.232153,
+     "4": 0.020328,
+     "5": 0.067618,
+     "6": 0.03506
+    },
+    "probabilities_raw": {
+     "1": 0.505258,
+     "2": 0.139583,
+     "3": 0.232153,
+     "4": 0.020328,
+     "5": 0.067618,
+     "6": 0.03506
+    },
+    "probabilities_staged": {
+     "1": 0.420458,
+     "2": 0.211183,
+     "3": 0.28067,
+     "4": 0.0,
+     "5": 0.068076,
+     "6": 0.019613
+    },
+    "race_id": "20260822_02_09",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_02_10": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:09:16+09:00",
+    "deadline_jst": "2026-08-22T15:21:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "d320937f133e846ec292672c7df0a00d61b095c45592f8fe2de0705b26ec9427",
+    "market_snapshot_at": "2026-08-22T15:06:06",
+    "marks": {
+     "1": "◎",
+     "2": "○",
+     "3": "▲",
+     "5": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.339795,
+     "2": 0.280868,
+     "3": 0.272603,
+     "4": 0.043483,
+     "5": 0.057569,
+     "6": 0.005682
+    },
+    "probabilities_raw": {
+     "1": 0.339795,
+     "2": 0.280868,
+     "3": 0.272603,
+     "4": 0.043483,
+     "5": 0.057569,
+     "6": 0.005682
+    },
+    "probabilities_staged": {
+     "1": 0.289931,
+     "2": 0.28993,
+     "3": 0.28993,
+     "4": 0.045873,
+     "5": 0.084336,
+     "6": 0.0
+    },
+    "race_id": "20260822_02_10",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_02_11": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:43:12+09:00",
+    "deadline_jst": "2026-08-22T15:55:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "○",
+     "4": "△",
+     "5": "▲"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.610062,
+     "2": 0.151167,
+     "3": 0.030582,
+     "4": 0.061761,
+     "5": 0.133458,
+     "6": 0.01297
+    },
+    "probabilities_raw": {
+     "1": 0.610062,
+     "2": 0.151167,
+     "3": 0.030582,
+     "4": 0.061761,
+     "5": 0.133458,
+     "6": 0.01297
+    },
+    "probabilities_staged": {
+     "1": 0.445406,
+     "2": 0.229662,
+     "3": 0.040953,
+     "4": 0.085877,
+     "5": 0.198102,
+     "6": 0.0
+    },
+    "race_id": "20260822_02_11",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_02_12": {
@@ -725,23 +854,238 @@
    "settlement": null
   },
   "20260822_03_08": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:12:38+09:00",
+    "deadline_jst": "2026-08-22T14:24:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "5852f40fd329e8c386e81e64ad1cb4fd5f1f1da018944991564b91461930faab",
+    "market_snapshot_at": "2026-08-22T14:12:37",
+    "marks": {
+     "1": "○",
+     "2": "▲",
+     "3": "◎",
+     "4": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.327347,
+     "2": 0.263008,
+     "3": 0.330349,
+     "4": 0.059401,
+     "5": 0.013224,
+     "6": 0.006671
+    },
+    "probabilities_raw": {
+     "1": 0.327347,
+     "2": 0.263008,
+     "3": 0.330349,
+     "4": 0.059401,
+     "5": 0.013224,
+     "6": 0.006671
+    },
+    "probabilities_staged": {
+     "1": 0.303869,
+     "2": 0.30387,
+     "3": 0.30387,
+     "4": 0.088391,
+     "5": 0.0,
+     "6": 0.0
+    },
+    "race_id": "20260822_03_08",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_03_09": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:40:22+09:00",
+    "deadline_jst": "2026-08-22T14:52:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "△",
+     "4": "▲",
+     "6": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.601463,
+     "2": 0.048119,
+     "3": 0.045638,
+     "4": 0.101553,
+     "5": 0.022934,
+     "6": 0.180293
+    },
+    "probabilities_raw": {
+     "1": 0.601463,
+     "2": 0.048119,
+     "3": 0.045638,
+     "4": 0.101553,
+     "5": 0.022934,
+     "6": 0.180293
+    },
+    "probabilities_staged": {
+     "1": 0.53141,
+     "2": 0.041857,
+     "3": 0.041857,
+     "4": 0.150148,
+     "5": 0.0,
+     "6": 0.234728
+    },
+    "race_id": "20260822_03_09",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_03_10": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:10:12+09:00",
+    "deadline_jst": "2026-08-22T15:22:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "▲",
+     "3": "△",
+     "4": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.668307,
+     "2": 0.083328,
+     "3": 0.081831,
+     "4": 0.115635,
+     "5": 0.044099,
+     "6": 0.0068
+    },
+    "probabilities_raw": {
+     "1": 0.668307,
+     "2": 0.083328,
+     "3": 0.081831,
+     "4": 0.115635,
+     "5": 0.044099,
+     "6": 0.0068
+    },
+    "probabilities_staged": {
+     "1": 0.383333,
+     "2": 0.180831,
+     "3": 0.154412,
+     "4": 0.195422,
+     "5": 0.086002,
+     "6": 0.0
+    },
+    "race_id": "20260822_03_10",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_03_11": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:41:25+09:00",
+    "deadline_jst": "2026-08-22T15:53:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "0c3afd9f3566c194b76a4616d000912a9d6c58f167374f3f126b82770b3445d4",
+    "market_snapshot_at": "2026-08-22T15:41:24",
+    "marks": {
+     "1": "◎",
+     "2": "▲",
+     "4": "○",
+     "5": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.63544,
+     "2": 0.144223,
+     "3": 0.01667,
+     "4": 0.149983,
+     "5": 0.034885,
+     "6": 0.018799
+    },
+    "probabilities_raw": {
+     "1": 0.63544,
+     "2": 0.144223,
+     "3": 0.01667,
+     "4": 0.149983,
+     "5": 0.034885,
+     "6": 0.018799
+    },
+    "probabilities_staged": {
+     "1": 0.500144,
+     "2": 0.229444,
+     "3": 0.0,
+     "4": 0.229444,
+     "5": 0.040914,
+     "6": 5.4e-05
+    },
+    "race_id": "20260822_03_11",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_03_12": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T16:13:06+09:00",
+    "deadline_jst": "2026-08-22T16:25:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "6a65bb8fbf1a514a9b4869946dd4aaacd1a764dde2acd339c6f4c802b9081a49",
+    "market_snapshot_at": "2026-08-22T16:10:08",
+    "marks": {
+     "1": "◎",
+     "2": "▲",
+     "3": "△",
+     "4": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.59103,
+     "2": 0.091766,
+     "3": 0.078839,
+     "4": 0.210639,
+     "5": 0.021903,
+     "6": 0.005823
+    },
+    "probabilities_raw": {
+     "1": 0.59103,
+     "2": 0.091766,
+     "3": 0.078839,
+     "4": 0.210639,
+     "5": 0.021903,
+     "6": 0.005823
+    },
+    "probabilities_staged": {
+     "1": 0.369935,
+     "2": 0.180237,
+     "3": 0.153905,
+     "4": 0.255046,
+     "5": 0.040877,
+     "6": 0.0
+    },
+    "race_id": "20260822_03_12",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_04_01": {
@@ -980,19 +1324,191 @@
    "settlement": null
   },
   "20260822_04_06": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:14:26+09:00",
+    "deadline_jst": "2026-08-22T14:26:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "65f21913b25a46fa5d11cecc3f78250cf06b4ba1bbe3ce489f0a18133db7ff64",
+    "market_snapshot_at": "2026-08-22T14:14:25",
+    "marks": {
+     "1": "○",
+     "2": "▲",
+     "3": "◎",
+     "4": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.203576,
+     "2": 0.188738,
+     "3": 0.447712,
+     "4": 0.093924,
+     "5": 0.06605,
+     "6": 0.0
+    },
+    "probabilities_raw": {
+     "1": 0.203576,
+     "2": 0.188738,
+     "3": 0.447712,
+     "4": 0.093924,
+     "5": 0.06605,
+     "6": 0.0
+    },
+    "probabilities_staged": {
+     "1": 0.206006,
+     "2": 0.206006,
+     "3": 0.210174,
+     "4": 0.188907,
+     "5": 0.188907,
+     "6": 0.0
+    },
+    "race_id": "20260822_04_06",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_04_07": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:46:26+09:00",
+    "deadline_jst": "2026-08-22T14:58:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "○",
+     "2": "▲",
+     "3": "◎",
+     "6": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.304532,
+     "2": 0.155441,
+     "3": 0.435181,
+     "4": 0.021607,
+     "5": 0.037715,
+     "6": 0.045524
+    },
+    "probabilities_raw": {
+     "1": 0.304532,
+     "2": 0.155441,
+     "3": 0.435181,
+     "4": 0.021607,
+     "5": 0.037715,
+     "6": 0.045524
+    },
+    "probabilities_staged": {
+     "1": 0.332496,
+     "2": 0.219773,
+     "3": 0.401809,
+     "4": 0.0,
+     "5": 0.005032,
+     "6": 0.04089
+    },
+    "race_id": "20260822_04_07",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_04_08": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:19:21+09:00",
+    "deadline_jst": "2026-08-22T15:31:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "0f4f5359af000b3704bf9fa5e81d710f33f418843bda7490a378edb49033e938",
+    "market_snapshot_at": "2026-08-22T15:16:08",
+    "marks": {
+     "1": "○",
+     "2": "△",
+     "3": "▲",
+     "4": "◎"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.367501,
+     "2": 0.084415,
+     "3": 0.13158,
+     "4": 0.404456,
+     "5": 0.012048,
+     "6": 0.0
+    },
+    "probabilities_raw": {
+     "1": 0.367501,
+     "2": 0.084415,
+     "3": 0.13158,
+     "4": 0.404456,
+     "5": 0.012048,
+     "6": 0.0
+    },
+    "probabilities_staged": {
+     "1": 0.218072,
+     "2": 0.196004,
+     "3": 0.213746,
+     "4": 0.218071,
+     "5": 0.154107,
+     "6": 0.0
+    },
+    "race_id": "20260822_04_08",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_04_09": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:53:16+09:00",
+    "deadline_jst": "2026-08-22T16:05:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "d9f298deed3512648cef0750d5d7134dd295002817b6cfb8dd77cf52bfcdc2c6",
+    "market_snapshot_at": "2026-08-22T15:53:15",
+    "marks": {
+     "1": "▲",
+     "2": "◎",
+     "3": "○",
+     "5": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.227703,
+     "2": 0.39455,
+     "3": 0.236159,
+     "4": 0.03139,
+     "5": 0.094482,
+     "6": 0.015716
+    },
+    "probabilities_raw": {
+     "1": 0.227703,
+     "2": 0.39455,
+     "3": 0.236159,
+     "4": 0.03139,
+     "5": 0.094482,
+     "6": 0.015716
+    },
+    "probabilities_staged": {
+     "1": 0.256653,
+     "2": 0.351863,
+     "3": 0.256653,
+     "4": 0.004487,
+     "5": 0.130344,
+     "6": 0.0
+    },
+    "race_id": "20260822_04_09",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_04_10": {
@@ -1290,19 +1806,191 @@
    "settlement": null
   },
   "20260822_06_07": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:25:40+09:00",
+    "deadline_jst": "2026-08-22T14:37:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "○",
+     "2": "◎",
+     "3": "▲",
+     "5": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.302119,
+     "2": 0.433268,
+     "3": 0.132497,
+     "4": 0.029414,
+     "5": 0.074586,
+     "6": 0.028116
+    },
+    "probabilities_raw": {
+     "1": 0.302119,
+     "2": 0.433268,
+     "3": 0.132497,
+     "4": 0.029414,
+     "5": 0.074586,
+     "6": 0.028116
+    },
+    "probabilities_staged": {
+     "1": 0.338119,
+     "2": 0.438388,
+     "3": 0.17659,
+     "4": 0.0,
+     "5": 0.046903,
+     "6": 0.0
+    },
+    "race_id": "20260822_06_07",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_06_08": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:52:13+09:00",
+    "deadline_jst": "2026-08-22T15:04:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "△",
+     "3": "▲",
+     "4": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.537531,
+     "2": 0.066766,
+     "3": 0.067441,
+     "4": 0.292457,
+     "5": 0.015148,
+     "6": 0.020657
+    },
+    "probabilities_raw": {
+     "1": 0.537531,
+     "2": 0.066766,
+     "3": 0.067441,
+     "4": 0.292457,
+     "5": 0.015148,
+     "6": 0.020657
+    },
+    "probabilities_staged": {
+     "1": 0.448098,
+     "2": 0.100532,
+     "3": 0.100532,
+     "4": 0.345608,
+     "5": 0.0,
+     "6": 0.00523
+    },
+    "race_id": "20260822_06_08",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_06_09": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:23:38+09:00",
+    "deadline_jst": "2026-08-22T15:35:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "△",
+     "3": "▲",
+     "4": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.606062,
+     "2": 0.073312,
+     "3": 0.107288,
+     "4": 0.156143,
+     "5": 0.053007,
+     "6": 0.004188
+    },
+    "probabilities_raw": {
+     "1": 0.606062,
+     "2": 0.073312,
+     "3": 0.107288,
+     "4": 0.156143,
+     "5": 0.053007,
+     "6": 0.004188
+    },
+    "probabilities_staged": {
+     "1": 0.33574,
+     "2": 0.145099,
+     "3": 0.180923,
+     "4": 0.216121,
+     "5": 0.122117,
+     "6": 0.0
+    },
+    "race_id": "20260822_06_09",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_06_10": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:51:32+09:00",
+    "deadline_jst": "2026-08-22T16:03:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "3": "▲",
+     "5": "△",
+     "6": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.578017,
+     "2": 0.038559,
+     "3": 0.107231,
+     "4": 0.032041,
+     "5": 0.087244,
+     "6": 0.156908
+    },
+    "probabilities_raw": {
+     "1": 0.578017,
+     "2": 0.038559,
+     "3": 0.107231,
+     "4": 0.032041,
+     "5": 0.087244,
+     "6": 0.156908
+    },
+    "probabilities_staged": {
+     "1": 0.568707,
+     "2": 0.00464,
+     "3": 0.13478,
+     "4": 0.0,
+     "5": 0.089195,
+     "6": 0.202678
+    },
+    "race_id": "20260822_06_10",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_06_11": {
@@ -1314,15 +2002,144 @@
    "settlement": null
   },
   "20260822_07_01": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:05:34+09:00",
+    "deadline_jst": "2026-08-22T15:17:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "43e54e4ce0138f962ed5224b5af11bcdefccc29f251ed4d2172df3ebaaa23290",
+    "market_snapshot_at": "2026-08-22T15:02:06",
+    "marks": {
+     "1": "◎",
+     "2": "○",
+     "3": "△",
+     "5": "▲"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.515205,
+     "2": 0.195374,
+     "3": 0.089447,
+     "4": 0.020566,
+     "5": 0.156892,
+     "6": 0.022516
+    },
+    "probabilities_raw": {
+     "1": 0.515205,
+     "2": 0.195374,
+     "3": 0.089447,
+     "4": 0.020566,
+     "5": 0.156892,
+     "6": 0.022516
+    },
+    "probabilities_staged": {
+     "1": 0.393857,
+     "2": 0.257699,
+     "3": 0.112135,
+     "4": 0.0,
+     "5": 0.236309,
+     "6": 0.0
+    },
+    "race_id": "20260822_07_01",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_07_02": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:29:44+09:00",
+    "deadline_jst": "2026-08-22T15:41:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "3": "▲",
+     "4": "△",
+     "5": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.497308,
+     "2": 0.052401,
+     "3": 0.113892,
+     "4": 0.053614,
+     "5": 0.2326,
+     "6": 0.050185
+    },
+    "probabilities_raw": {
+     "1": 0.497308,
+     "2": 0.052401,
+     "3": 0.113892,
+     "4": 0.053614,
+     "5": 0.2326,
+     "6": 0.050185
+    },
+    "probabilities_staged": {
+     "1": 0.609826,
+     "2": 0.004976,
+     "3": 0.095644,
+     "4": 0.004976,
+     "5": 0.284578,
+     "6": 0.0
+    },
+    "race_id": "20260822_07_02",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_07_03": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:55:41+09:00",
+    "deadline_jst": "2026-08-22T16:07:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "○",
+     "2": "◎",
+     "4": "△",
+     "5": "▲"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.241845,
+     "2": 0.530493,
+     "3": 0.032942,
+     "4": 0.090909,
+     "5": 0.094075,
+     "6": 0.009736
+    },
+    "probabilities_raw": {
+     "1": 0.241845,
+     "2": 0.530493,
+     "3": 0.032942,
+     "4": 0.090909,
+     "5": 0.094075,
+     "6": 0.009736
+    },
+    "probabilities_staged": {
+     "1": 0.274802,
+     "2": 0.366422,
+     "3": 0.04206,
+     "4": 0.158358,
+     "5": 0.158358,
+     "6": 0.0
+    },
+    "race_id": "20260822_07_03",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_07_04": {
@@ -1738,19 +2555,191 @@
    "settlement": null
   },
   "20260822_08_09": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:16:13+09:00",
+    "deadline_jst": "2026-08-22T14:28:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "○",
+     "4": "▲",
+     "6": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.4475,
+     "2": 0.22237,
+     "3": 0.068865,
+     "4": 0.156526,
+     "5": 0.023141,
+     "6": 0.081598
+    },
+    "probabilities_raw": {
+     "1": 0.4475,
+     "2": 0.22237,
+     "3": 0.068865,
+     "4": 0.156526,
+     "5": 0.023141,
+     "6": 0.081598
+    },
+    "probabilities_staged": {
+     "1": 0.39503,
+     "2": 0.263696,
+     "3": 0.048206,
+     "4": 0.204442,
+     "5": 0.0,
+     "6": 0.088626
+    },
+    "race_id": "20260822_08_09",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_08_10": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:44:39+09:00",
+    "deadline_jst": "2026-08-22T14:56:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "△",
+     "3": "▲",
+     "4": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.685709,
+     "2": 0.039868,
+     "3": 0.055457,
+     "4": 0.165288,
+     "5": 0.018149,
+     "6": 0.035529
+    },
+    "probabilities_raw": {
+     "1": 0.685709,
+     "2": 0.039868,
+     "3": 0.055457,
+     "4": 0.165288,
+     "5": 0.018149,
+     "6": 0.035529
+    },
+    "probabilities_staged": {
+     "1": 0.616075,
+     "2": 0.042091,
+     "3": 0.063698,
+     "4": 0.236045,
+     "5": 0.0,
+     "6": 0.042091
+    },
+    "race_id": "20260822_08_10",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_08_11": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:17:12+09:00",
+    "deadline_jst": "2026-08-22T15:29:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "e8e74ce0085eb6fdf40351c243c5ca1de9ca691d0d6c79fc4676ff24c040bebb",
+    "market_snapshot_at": "2026-08-22T15:14:43",
+    "marks": {
+     "1": "◎",
+     "2": "○",
+     "3": "▲",
+     "4": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.67844,
+     "2": 0.135992,
+     "3": 0.062491,
+     "4": 0.058521,
+     "5": 0.031966,
+     "6": 0.03259
+    },
+    "probabilities_raw": {
+     "1": 0.67844,
+     "2": 0.135992,
+     "3": 0.062491,
+     "4": 0.058521,
+     "5": 0.031966,
+     "6": 0.03259
+    },
+    "probabilities_staged": {
+     "1": 0.688799,
+     "2": 0.207041,
+     "3": 0.046957,
+     "4": 0.046957,
+     "5": 0.005123,
+     "6": 0.005123
+    },
+    "race_id": "20260822_08_11",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_08_12": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:49:16+09:00",
+    "deadline_jst": "2026-08-22T16:01:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "fbf023dd6135ad965e3e8d0bcf2928d9a36f391ae19073905ea9dbab6a05db5e",
+    "market_snapshot_at": "2026-08-22T15:46:21",
+    "marks": {
+     "1": "◎",
+     "2": "○",
+     "3": "△",
+     "4": "▲"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.650358,
+     "2": 0.171098,
+     "3": 0.0476,
+     "4": 0.102002,
+     "5": 0.028942,
+     "6": 0.0
+    },
+    "probabilities_raw": {
+     "1": 0.650358,
+     "2": 0.171098,
+     "3": 0.0476,
+     "4": 0.102002,
+     "5": 0.028942,
+     "6": 0.0
+    },
+    "probabilities_staged": {
+     "1": 0.240226,
+     "2": 0.207914,
+     "3": 0.186875,
+     "4": 0.20379,
+     "5": 0.161195,
+     "6": 0.0
+    },
+    "race_id": "20260822_08_12",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_16_01": {
@@ -2083,19 +3072,191 @@
    "settlement": null
   },
   "20260822_16_08": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:21:19+09:00",
+    "deadline_jst": "2026-08-22T14:33:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "02b5e3156f009729ee1e5e2b422cc93e25dcc745d6c2b8e21c658f957f076b99",
+    "market_snapshot_at": "2026-08-22T14:18:17",
+    "marks": {
+     "1": "◎",
+     "3": "▲",
+     "4": "○",
+     "5": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.563162,
+     "2": 0.01046,
+     "3": 0.13406,
+     "4": 0.254443,
+     "5": 0.037187,
+     "6": 0.000688
+    },
+    "probabilities_raw": {
+     "1": 0.563162,
+     "2": 0.01046,
+     "3": 0.13406,
+     "4": 0.254443,
+     "5": 0.037187,
+     "6": 0.000688
+    },
+    "probabilities_staged": {
+     "1": 0.324654,
+     "2": 0.037954,
+     "3": 0.232109,
+     "4": 0.273608,
+     "5": 0.131675,
+     "6": 0.0
+    },
+    "race_id": "20260822_16_08",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_16_09": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:54:21+09:00",
+    "deadline_jst": "2026-08-22T15:06:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "45d4e195b3a1a7fe46505561ad535623d3dc9af1bfa2f1c94ed8385b99341dd3",
+    "market_snapshot_at": "2026-08-22T14:51:32",
+    "marks": {
+     "1": "◎",
+     "3": "○",
+     "4": "△",
+     "5": "▲"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.634704,
+     "2": 0.011705,
+     "3": 0.193819,
+     "4": 0.05075,
+     "5": 0.109022,
+     "6": 0.0
+    },
+    "probabilities_raw": {
+     "1": 0.634704,
+     "2": 0.011705,
+     "3": 0.193819,
+     "4": 0.05075,
+     "5": 0.109022,
+     "6": 0.0
+    },
+    "probabilities_staged": {
+     "1": 0.243702,
+     "2": 0.149056,
+     "3": 0.210923,
+     "4": 0.189579,
+     "5": 0.20674,
+     "6": 0.0
+    },
+    "race_id": "20260822_16_09",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_16_10": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:27:15+09:00",
+    "deadline_jst": "2026-08-22T15:39:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "ea5d0b9ba1f1afba2206e89d1c712404a8158dc7b1b7ea9817c0644b65315f43",
+    "market_snapshot_at": "2026-08-22T15:24:26",
+    "marks": {
+     "1": "◎",
+     "2": "○",
+     "3": "△",
+     "4": "▲"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.78353,
+     "2": 0.0784,
+     "3": 0.047527,
+     "4": 0.058742,
+     "5": 0.018405,
+     "6": 0.013396
+    },
+    "probabilities_raw": {
+     "1": 0.78353,
+     "2": 0.0784,
+     "3": 0.047527,
+     "4": 0.058742,
+     "5": 0.018405,
+     "6": 0.013396
+    },
+    "probabilities_staged": {
+     "1": 0.617972,
+     "2": 0.158614,
+     "3": 0.088342,
+     "4": 0.112108,
+     "5": 0.018368,
+     "6": 0.004596
+    },
+    "race_id": "20260822_16_10",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_16_11": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:59:15+09:00",
+    "deadline_jst": "2026-08-22T16:11:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "d2d4122189ac0eb5263d06e8a5dcdc6377b4ac4bc2f166fbd2d0f9a9514f42cd",
+    "market_snapshot_at": "2026-08-22T15:56:22",
+    "marks": {
+     "1": "◎",
+     "2": "○",
+     "3": "▲",
+     "4": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.701517,
+     "2": 0.121438,
+     "3": 0.086534,
+     "4": 0.054944,
+     "5": 0.018487,
+     "6": 0.01708
+    },
+    "probabilities_raw": {
+     "1": 0.701517,
+     "2": 0.121438,
+     "3": 0.086534,
+     "4": 0.054944,
+     "5": 0.018487,
+     "6": 0.01708
+    },
+    "probabilities_staged": {
+     "1": 0.586121,
+     "2": 0.187581,
+     "3": 0.143334,
+     "4": 0.078605,
+     "5": 0.004359,
+     "6": 0.0
+    },
+    "race_id": "20260822_16_11",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_16_12": {
@@ -2103,15 +3264,144 @@
    "settlement": null
   },
   "20260822_19_01": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:13:35+09:00",
+    "deadline_jst": "2026-08-22T15:25:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "○",
+     "3": "▲",
+     "4": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.422558,
+     "2": 0.385744,
+     "3": 0.084507,
+     "4": 0.052167,
+     "5": 0.027285,
+     "6": 0.027739
+    },
+    "probabilities_raw": {
+     "1": 0.422558,
+     "2": 0.385744,
+     "3": 0.084507,
+     "4": 0.052167,
+     "5": 0.027285,
+     "6": 0.027739
+    },
+    "probabilities_staged": {
+     "1": 0.442787,
+     "2": 0.440582,
+     "3": 0.076916,
+     "4": 0.039715,
+     "5": 0.0,
+     "6": 0.0
+    },
+    "race_id": "20260822_19_01",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_19_02": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:39:39+09:00",
+    "deadline_jst": "2026-08-22T15:51:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "▲",
+     "3": "△",
+     "6": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.379286,
+     "2": 0.159071,
+     "3": 0.115746,
+     "4": 0.05541,
+     "5": 0.048627,
+     "6": 0.24186
+    },
+    "probabilities_raw": {
+     "1": 0.379286,
+     "2": 0.159071,
+     "3": 0.115746,
+     "4": 0.05541,
+     "5": 0.048627,
+     "6": 0.24186
+    },
+    "probabilities_staged": {
+     "1": 0.405291,
+     "2": 0.19119,
+     "3": 0.090928,
+     "4": 0.0,
+     "5": 0.0,
+     "6": 0.312591
+    },
+    "race_id": "20260822_19_02",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_19_03": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T16:07:17+09:00",
+    "deadline_jst": "2026-08-22T16:19:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "○",
+     "2": "△",
+     "3": "◎",
+     "5": "▲"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.367126,
+     "2": 0.082552,
+     "3": 0.381186,
+     "4": 0.078107,
+     "5": 0.083151,
+     "6": 0.007878
+    },
+    "probabilities_raw": {
+     "1": 0.367126,
+     "2": 0.082552,
+     "3": 0.381186,
+     "4": 0.078107,
+     "5": 0.083151,
+     "6": 0.007878
+    },
+    "probabilities_staged": {
+     "1": 0.294574,
+     "2": 0.141024,
+     "3": 0.294575,
+     "4": 0.128803,
+     "5": 0.141024,
+     "6": 0.0
+    },
+    "race_id": "20260822_19_03",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_19_04": {
@@ -2151,15 +3441,144 @@
    "settlement": null
   },
   "20260822_20_01": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:08:30+09:00",
+    "deadline_jst": "2026-08-22T15:20:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "○",
+     "3": "▲",
+     "4": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.482301,
+     "2": 0.280555,
+     "3": 0.142606,
+     "4": 0.075307,
+     "5": 0.019219,
+     "6": 1.2e-05
+    },
+    "probabilities_raw": {
+     "1": 0.482301,
+     "2": 0.280555,
+     "3": 0.142606,
+     "4": 0.075307,
+     "5": 0.019219,
+     "6": 1.2e-05
+    },
+    "probabilities_staged": {
+     "1": 0.250668,
+     "2": 0.216951,
+     "3": 0.212649,
+     "4": 0.194998,
+     "5": 0.124734,
+     "6": 0.0
+    },
+    "race_id": "20260822_20_01",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_20_02": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:36:22+09:00",
+    "deadline_jst": "2026-08-22T15:48:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "▲",
+     "4": "△",
+     "5": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.35204,
+     "2": 0.135548,
+     "3": 0.09286,
+     "4": 0.094592,
+     "5": 0.289774,
+     "6": 0.035186
+    },
+    "probabilities_raw": {
+     "1": 0.35204,
+     "2": 0.135548,
+     "3": 0.09286,
+     "4": 0.094592,
+     "5": 0.289774,
+     "6": 0.035186
+    },
+    "probabilities_staged": {
+     "1": 0.386355,
+     "2": 0.166973,
+     "3": 0.059852,
+     "4": 0.067113,
+     "5": 0.319707,
+     "6": 0.0
+    },
+    "race_id": "20260822_20_02",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_20_03": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T16:04:31+09:00",
+    "deadline_jst": "2026-08-22T16:16:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "△",
+     "4": "▲",
+     "6": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.5327,
+     "2": 0.094536,
+     "3": 0.072466,
+     "4": 0.101155,
+     "5": 0.024989,
+     "6": 0.174154
+    },
+    "probabilities_raw": {
+     "1": 0.5327,
+     "2": 0.094536,
+     "3": 0.072466,
+     "4": 0.101155,
+     "5": 0.024989,
+     "6": 0.174154
+    },
+    "probabilities_staged": {
+     "1": 0.456455,
+     "2": 0.111685,
+     "3": 0.063513,
+     "4": 0.132987,
+     "5": 0.0,
+     "6": 0.23536
+    },
+    "race_id": "20260822_20_03",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_20_04": {
@@ -2951,23 +4370,238 @@
    "settlement": null
   },
   "20260822_22_05": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:07:10+09:00",
+    "deadline_jst": "2026-08-22T14:19:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "b4b208a0d0c149d73c93b1228727ffef4f37dad28ff3d81489470cd3ebe2efa6",
+    "market_snapshot_at": "2026-08-22T14:04:20",
+    "marks": {
+     "1": "◎",
+     "2": "○",
+     "3": "△",
+     "4": "▲"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.462382,
+     "2": 0.319995,
+     "3": 0.078375,
+     "4": 0.113558,
+     "5": 0.014712,
+     "6": 0.010978
+    },
+    "probabilities_raw": {
+     "1": 0.462382,
+     "2": 0.319995,
+     "3": 0.078375,
+     "4": 0.113558,
+     "5": 0.014712,
+     "6": 0.010978
+    },
+    "probabilities_staged": {
+     "1": 0.370735,
+     "2": 0.306782,
+     "3": 0.134846,
+     "4": 0.187637,
+     "5": 0.0,
+     "6": 0.0
+    },
+    "race_id": "20260822_22_05",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_22_06": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:34:27+09:00",
+    "deadline_jst": "2026-08-22T14:46:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "1317d6a6ec9f15ae59559c7b6eb9b8b023fc777724677df69091197d74bf1994",
+    "market_snapshot_at": "2026-08-22T14:34:26",
+    "marks": {
+     "1": "◎",
+     "2": "▲",
+     "3": "△",
+     "4": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.386764,
+     "2": 0.231993,
+     "3": 0.07529,
+     "4": 0.274289,
+     "5": 0.024273,
+     "6": 0.007391
+    },
+    "probabilities_raw": {
+     "1": 0.386764,
+     "2": 0.231993,
+     "3": 0.07529,
+     "4": 0.274289,
+     "5": 0.024273,
+     "6": 0.007391
+    },
+    "probabilities_staged": {
+     "1": 0.295199,
+     "2": 0.254155,
+     "3": 0.129075,
+     "4": 0.293654,
+     "5": 0.027917,
+     "6": 0.0
+    },
+    "race_id": "20260822_22_06",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_22_07": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:02:14+09:00",
+    "deadline_jst": "2026-08-22T15:14:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "3": "△",
+     "4": "▲",
+     "5": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.528104,
+     "2": 0.07954,
+     "3": 0.094633,
+     "4": 0.09556,
+     "5": 0.198797,
+     "6": 0.003366
+    },
+    "probabilities_raw": {
+     "1": 0.528104,
+     "2": 0.07954,
+     "3": 0.094633,
+     "4": 0.09556,
+     "5": 0.198797,
+     "6": 0.003366
+    },
+    "probabilities_staged": {
+     "1": 0.312453,
+     "2": 0.137527,
+     "3": 0.161057,
+     "4": 0.161057,
+     "5": 0.227906,
+     "6": 0.0
+    },
+    "race_id": "20260822_22_07",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_22_08": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T15:32:36+09:00",
+    "deadline_jst": "2026-08-22T15:44:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "○",
+     "3": "△",
+     "4": "▲"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.525544,
+     "2": 0.247785,
+     "3": 0.064804,
+     "4": 0.084384,
+     "5": 0.052489,
+     "6": 0.024994
+    },
+    "probabilities_raw": {
+     "1": 0.525544,
+     "2": 0.247785,
+     "3": 0.064804,
+     "4": 0.084384,
+     "5": 0.052489,
+     "6": 0.024994
+    },
+    "probabilities_staged": {
+     "1": 0.490309,
+     "2": 0.324992,
+     "3": 0.045082,
+     "4": 0.094535,
+     "5": 0.045082,
+     "6": 0.0
+    },
+    "race_id": "20260822_22_08",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_22_09": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T16:10:32+09:00",
+    "deadline_jst": "2026-08-22T16:22:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "△",
+     "3": "▲",
+     "4": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.631811,
+     "2": 0.045089,
+     "3": 0.100445,
+     "4": 0.158455,
+     "5": 0.026861,
+     "6": 0.037339
+    },
+    "probabilities_raw": {
+     "1": 0.631811,
+     "2": 0.045089,
+     "3": 0.100445,
+     "4": 0.158455,
+     "5": 0.026861,
+     "6": 0.037339
+    },
+    "probabilities_staged": {
+     "1": 0.582511,
+     "2": 0.039711,
+     "3": 0.13777,
+     "4": 0.222694,
+     "5": 0.0,
+     "6": 0.017314
+    },
+    "race_id": "20260822_22_09",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_22_10": {
@@ -3500,7 +5134,50 @@
    "settlement": null
   },
   "20260822_23_12": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T14:10:29+09:00",
+    "deadline_jst": "2026-08-22T14:22:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": null,
+    "market_snapshot_at": null,
+    "marks": {
+     "1": "◎",
+     "2": "○",
+     "3": "▲",
+     "4": "△"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.783588,
+     "2": 0.094802,
+     "3": 0.072061,
+     "4": 0.034298,
+     "5": 0.01101,
+     "6": 0.004241
+    },
+    "probabilities_raw": {
+     "1": 0.783588,
+     "2": 0.094802,
+     "3": 0.072061,
+     "4": 0.034298,
+     "5": 0.01101,
+     "6": 0.004241
+    },
+    "probabilities_staged": {
+     "1": 0.472012,
+     "2": 0.206914,
+     "3": 0.188602,
+     "4": 0.089697,
+     "5": 0.042775,
+     "6": 0.0
+    },
+    "race_id": "20260822_23_12",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_24_01": {

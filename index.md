@@ -6,12 +6,13 @@
 
 - [累積スコアボード](scoreboard.md)
 - [較正表 (FORWARD)](calibration_forward.md) / [較正表 (RETROSPECTIVE)](calibration_retrospective.md)
+- [完全性](completeness.md) — 封印できなかったレース数と、連鎖の穴
 - [主張しないこと](claims.md) / [撤退条件](exit.md)
 - [検証手順](verify.md) / [禁止表現辞書](lint_dictionary.md)
 
 ## 日次台帳
 
-- [20260822](daily/20260822.md) — FORWARD, 封印 68/156 — 未クローズ (進行中)
+- [20260822](daily/20260822.md) — FORWARD, 封印 107/156 — 未クローズ (進行中)
 - [20260821](daily/20260821.md) — FORWARD, 採点 144/144 — **未クローズ: 連鎖に載っていません** (次の日が先に封印されたため、この日が連鎖に載ることは今後もありません)
 - [20260819](daily/20260819.md) — RETROSPECTIVE, 採点 144/144
 - [20260818](daily/20260818.md) — RETROSPECTIVE, 採点 144/144
