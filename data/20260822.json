@@ -7148,7 +7148,50 @@
    "settlement": null
   },
   "20260822_24_09": {
-   "payload": null,
+   "payload": {
+    "as_of": "2026-08-22T21:13:33+09:00",
+    "deadline_jst": "2026-08-22T21:25:00+09:00",
+    "kind": "publisher_race_payload",
+    "market_sha256": "6a2bcd67b4d19e2ec0f6055606a5148fbe01b359a4c44fd55095f6fe4967bef1",
+    "market_snapshot_at": "2026-08-22T21:10:09",
+    "marks": {
+     "1": "◎",
+     "2": "▲",
+     "3": "△",
+     "4": "○"
+    },
+    "mode": "live",
+    "official_base": "raw",
+    "probabilities": {
+     "1": 0.741574,
+     "2": 0.077766,
+     "3": 0.030937,
+     "4": 0.101231,
+     "5": 0.022317,
+     "6": 0.026175
+    },
+    "probabilities_raw": {
+     "1": 0.741574,
+     "2": 0.077766,
+     "3": 0.030937,
+     "4": 0.101231,
+     "5": 0.022317,
+     "6": 0.026175
+    },
+    "probabilities_staged": {
+     "1": 0.663914,
+     "2": 0.120442,
+     "3": 0.035365,
+     "4": 0.170405,
+     "5": 0.004937,
+     "6": 0.004937
+    },
+    "race_id": "20260822_24_09",
+    "schedule_sha256": "26f07cc767c4e3cdcfd4b6e7e8856439d0784fd61b6294eebe32c8c5182f3633",
+    "schema_version": 2,
+    "temperature": 1.0,
+    "temperature_history_races": 144
+   },
    "settlement": null
   },
   "20260822_24_10": {
