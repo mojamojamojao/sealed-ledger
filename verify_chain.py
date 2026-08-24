@@ -99,6 +99,22 @@ def verify_day(day_dir: Path, expected_prev: str) -> str | None:
                     as_of == deadline and str(record.get("mode")) == "live"
                 ):
                     fail(f"{date}: {race_id} sealed at {as_of}, not before deadline {deadline}")
+            if not is_market:
+                # Six lanes, no negatives, sums to one. Without this, a payload
+                # whose numbers were garbage would still verify as long as its
+                # hash matched. Tolerance 1e-5: live days round to exactly 1,
+                # the retrospective days predate that rule and sit within 2e-6.
+                for key in ("probabilities", "probabilities_raw", "probabilities_staged"):
+                    vector = record.get(key)
+                    if not vector:
+                        continue
+                    values = [float(value) for value in vector.values()]
+                    if len(values) != 6:
+                        fail(f"{date}: {race_id} {key} has {len(values)} lanes, not 6")
+                    if any(value < 0.0 or value > 1.0 for value in values):
+                        fail(f"{date}: {race_id} {key} has a value outside [0,1]")
+                    if abs(sum(values) - 1.0) > 1e-5:
+                        fail(f"{date}: {race_id} {key} sums to {sum(values):.9f}, not 1")
             digest = canonical_sha256(record)
             (markets if is_market else payloads)[race_id] = digest
     manifest_path = day_dir / "manifest.json"
