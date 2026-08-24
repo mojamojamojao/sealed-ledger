@@ -14561,7 +14561,51 @@
     "temperature": 1.0,
     "temperature_history_races": 299
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.127126,
+    "date": "20260823",
+    "dead_heat": false,
+    "logloss_market": 4.091748,
+    "logloss_market_closing": 2.062577,
+    "logloss_model": 2.394964,
+    "market_p_winner": 0.01671,
+    "mode": "live",
+    "model_p_winner": 0.091176,
+    "model_probabilities": {
+     "1": 0.69958,
+     "2": 0.075199,
+     "3": 0.091176,
+     "4": 0.077853,
+     "5": 0.046106,
+     "6": 0.010086
+    },
+    "model_probabilities_raw": {
+     "1": 0.69958,
+     "2": 0.075199,
+     "3": 0.091176,
+     "4": 0.077853,
+     "5": 0.046106,
+     "6": 0.010086
+    },
+    "model_probabilities_staged": {
+     "1": 0.446475,
+     "2": 0.145141,
+     "3": 0.178398,
+     "4": 0.145141,
+     "5": 0.084845,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20260823_24_12",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 1.0,
+    "winner_lanes": [
+     3
+    ]
+   }
   }
  },
  "schedule": {
