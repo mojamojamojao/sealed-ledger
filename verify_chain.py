@@ -52,6 +52,43 @@ def fail(message: str) -> None:
     raise SystemExit(1)
 
 
+def verify_published_numbers(root: Path, date: str) -> int:
+    """The scoreboard is computed from settlements, not from the seals.
+
+    Every statistic the site publishes comes from the settlement records
+    shipped in data/<date>.json. Those are not in the hash chain -- the seals
+    are. If a settlement's probabilities drifted from the payload it claims to
+    score, every published number would move and the chain would have nothing
+    to say about it. So for each race in the day's machine-readable file, the
+    scored numbers must be the sealed numbers.
+
+    Returns the number of races checked; 0 when the file is absent, which is
+    normal for a full-ledger checkout rather than the published mirror.
+    """
+
+    data_path = root / "data" / f"{date}.json"
+    if not data_path.exists():
+        return 0
+    data = load(data_path)
+    checked = 0
+    for race_id, entry in sorted((data.get("races") or {}).items()):
+        payload = entry.get("payload")
+        settlement = entry.get("settlement")
+        if not payload or not settlement:
+            continue
+        checked += 1
+        for scored_key, sealed_key in (
+            ("model_probabilities", "probabilities"),
+            ("model_probabilities_raw", "probabilities_raw"),
+            ("model_probabilities_staged", "probabilities_staged"),
+        ):
+            sealed = payload.get(sealed_key)
+            scored = settlement.get(scored_key)
+            if sealed and scored and scored != sealed:
+                fail(f"{date}: {race_id} scored {scored_key} differs from the sealed {sealed_key}")
+    return checked
+
+
 def verify_day(day_dir: Path, expected_prev: str) -> str | None:
     date = day_dir.name
     schedule_path = day_dir / "schedule.json"
@@ -187,10 +224,14 @@ def main() -> int:
         fail("no sealed days found")
 
     expected_prev = GENESIS
+    scored_total = 0
     for day_dir in days:
         manifest_sha = verify_day(day_dir, expected_prev)
         if manifest_sha is not None:
             expected_prev = manifest_sha
+        scored_total += verify_published_numbers(Path(args.root), day_dir.name)
+    if scored_total:
+        print(f"scored races whose numbers match their seal: {scored_total}")
 
     first = datetime.strptime(days[0].name, "%Y%m%d")
     last = datetime.strptime(days[-1].name, "%Y%m%d")
