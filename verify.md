@@ -5,7 +5,7 @@
 ```bash
 git clone --depth=1 https://github.com/mojamojamojao/sealed-ledger ledger && cd ledger
 python verify_chain.py            # 全日のハッシュ連鎖と宣言レース数を再計算して照合
-openssl ts -verify -data daily/20260825/races/20260825_01_01.json -in daily/20260825/races/20260825_01_01.json.tsr -CAfile "$(python -c 'import certifi, sys; sys.stdout.write(certifi.where())')"
+openssl ts -verify -data daily/20260826/races/20260826_01_01.json -in daily/20260826/races/20260826_01_01.json.tsr -CAfile "$(python -c 'import certifi, sys; sys.stdout.write(certifi.where())')"
 ```
 
 - `verify_chain.py` は封印済み JSON のバイト列から sha256 を再計算し、日次マニフェスト・前日リンク・宣言レース数との一致を全日分検査します。スクリプト本体はこのリポジトリに同梱するので、隠れた処理はありません。標準ライブラリだけで動きます。
