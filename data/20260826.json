@@ -11124,7 +11124,51 @@
     "temperature": 1.0,
     "temperature_history_races": 623
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.368667,
+    "date": "20260826",
+    "dead_heat": false,
+    "logloss_market": 0.883153,
+    "logloss_market_closing": 0.997861,
+    "logloss_model": 0.56181,
+    "market_p_winner": 0.413477,
+    "mode": "live",
+    "model_p_winner": 0.570176,
+    "model_probabilities": {
+     "1": 0.570176,
+     "2": 0.254802,
+     "3": 0.053137,
+     "4": 0.067875,
+     "5": 0.037537,
+     "6": 0.016473
+    },
+    "model_probabilities_raw": {
+     "1": 0.570176,
+     "2": 0.254802,
+     "3": 0.053137,
+     "4": 0.067875,
+     "5": 0.037537,
+     "6": 0.016473
+    },
+    "model_probabilities_staged": {
+     "1": 0.48722,
+     "2": 0.322945,
+     "3": 0.051097,
+     "4": 0.09394,
+     "5": 0.044798,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20260826_15_12",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 1.0,
+    "winner_lanes": [
+     1
+    ]
+   }
   },
   "20260826_17_01": {
    "payload": {
@@ -14392,7 +14436,51 @@
     "temperature": 1.0,
     "temperature_history_races": 623
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.670303,
+    "date": "20260826",
+    "dead_heat": false,
+    "logloss_market": 0.387729,
+    "logloss_market_closing": 0.400025,
+    "logloss_model": 0.03355,
+    "market_p_winner": 0.678596,
+    "mode": "live",
+    "model_p_winner": 0.967007,
+    "model_probabilities": {
+     "1": 0.967007,
+     "2": 0.0,
+     "3": 0.000105,
+     "4": 0.0,
+     "5": 0.032888,
+     "6": 0.0
+    },
+    "model_probabilities_raw": {
+     "1": 0.967007,
+     "2": 0.0,
+     "3": 0.000105,
+     "4": 0.0,
+     "5": 0.032888,
+     "6": 0.0
+    },
+    "model_probabilities_staged": {
+     "1": 0.459962,
+     "2": 0.0,
+     "3": 0.18528,
+     "4": 0.0,
+     "5": 0.354758,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20260826_20_12",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 1.0,
+    "winner_lanes": [
+     1
+    ]
+   }
   }
  },
  "schedule": {
