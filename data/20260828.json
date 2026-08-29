@@ -4519,7 +4519,51 @@
     "temperature": 1.0,
     "temperature_history_races": 928
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.614444,
+    "date": "20260828",
+    "dead_heat": false,
+    "logloss_market": 0.435407,
+    "logloss_market_closing": 0.487037,
+    "logloss_model": 0.44674,
+    "market_p_winner": 0.647001,
+    "mode": "live",
+    "model_p_winner": 0.63971,
+    "model_probabilities": {
+     "1": 0.63971,
+     "2": 0.09178,
+     "3": 0.112498,
+     "4": 0.075646,
+     "5": 0.080366,
+     "6": 0.0
+    },
+    "model_probabilities_raw": {
+     "1": 0.63971,
+     "2": 0.09178,
+     "3": 0.112498,
+     "4": 0.075646,
+     "5": 0.080366,
+     "6": 0.0
+    },
+    "model_probabilities_staged": {
+     "1": 0.239118,
+     "2": 0.186011,
+     "3": 0.202849,
+     "4": 0.186011,
+     "5": 0.186011,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20260828_07_12",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 1.0,
+    "winner_lanes": [
+     1
+    ]
+   }
   },
   "20260828_09_01": {
    "payload": {
@@ -11039,7 +11083,51 @@
     "temperature": 1.0,
     "temperature_history_races": 928
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": true,
+    "closing_p_winner": null,
+    "date": "20260828",
+    "dead_heat": false,
+    "logloss_market": 0.347022,
+    "logloss_market_closing": null,
+    "logloss_model": 0.335137,
+    "market_p_winner": 0.70679,
+    "mode": "live",
+    "model_p_winner": 0.71524,
+    "model_probabilities": {
+     "1": 0.71524,
+     "2": 0.091408,
+     "3": 0.172636,
+     "4": 0.001042,
+     "5": 0.019674,
+     "6": 0.0
+    },
+    "model_probabilities_raw": {
+     "1": 0.71524,
+     "2": 0.091408,
+     "3": 0.172636,
+     "4": 0.001042,
+     "5": 0.019674,
+     "6": 0.0
+    },
+    "model_probabilities_staged": {
+     "1": 0.2517,
+     "2": 0.213524,
+     "3": 0.217844,
+     "4": 0.121132,
+     "5": 0.1958,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20260828_15_12",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 1.0,
+    "winner_lanes": [
+     1
+    ]
+   }
   },
   "20260828_17_01": {
    "payload": {
