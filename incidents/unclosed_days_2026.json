@@ -1,0 +1,22 @@
+{
+  "schema_version": "publisher-historical-unclosed-days/v1",
+  "reason": "These days have immutable schedules but no manifest. Their complete local file inventories are pinned here; the strict whole-chain verifier remains red.",
+  "days": [
+    {
+      "date": "20260727",
+      "file_count": 1,
+      "inventory_sha256": "32cad336f49d7737ca7f1f6d2e072ac4f98fa08b3beba8baea25f0670cb7c711",
+      "schedule_sha256": "e485828cf33fc6e3c53b12ad38126c875ccc9758b1e5dc09116cb3e94091bd8d",
+      "declared_count": 156,
+      "sealed_count": 0
+    },
+    {
+      "date": "20260821",
+      "file_count": 531,
+      "inventory_sha256": "d3d50e1867ebd8ea51cba4945720205e2600559b1a7160e4e5ab3bab5745f9e4",
+      "schedule_sha256": "118a4c2bf1944caa7ffcd13c7e3a2760446fbd51ac6e5179eb947502966de64b",
+      "declared_count": 144,
+      "sealed_count": 144
+    }
+  ]
+}

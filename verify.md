@@ -5,7 +5,7 @@
 ```bash
 git clone --depth=1 https://github.com/mojamojamojao/sealed-ledger ledger && cd ledger
 python verify_chain.py            # 全日のハッシュ連鎖と宣言レース数を再計算して照合
-openssl ts -verify -data daily/20260829/races/20260829_01_01.json -in daily/20260829/races/20260829_01_01.json.tsr -CAfile "$(python -c 'import certifi, sys; sys.stdout.write(certifi.where())')"
+openssl ts -verify -data daily/20260929/races/20260929_02_01.json -in daily/20260929/races/20260929_02_01.json.tsr -CAfile "$(python -c 'import certifi, sys; sys.stdout.write(certifi.where())')"
 ```
 
 - `verify_chain.py` は封印済み JSON のバイト列から sha256 を再計算し、日次マニフェスト・前日リンク・宣言レース数との一致を全日分検査します。スクリプト本体はこのリポジトリに同梱するので、隠れた処理はありません。標準ライブラリだけで動きます。
@@ -16,3 +16,8 @@ openssl ts -verify -data daily/20260829/races/20260829_01_01.json -in daily/2026
 - **公開している統計の出どころ**: スコアボードと較正表は、各日の `data/<日付>.json` に入っている採点結果から計算しています。採点結果自体はハッシュ連鎖の対象ではありません (連鎖が守っているのは封印です)。そこで `verify_chain.py` は、**採点に使われた確率が封印された確率と一致すること**もレース単位で照合します — 数字だけを後から良く書き換える経路を塞ぐためです。
 - **温度の適用式**: 公開している確率は `p_i^T / Σ_j p_j^T` (べき乗して再正規化) です。T は各日のスケジュールと各レースの封印に含まれます。封印には採用構成 (生確率) と棄却構成 (段階PL) の両方の素の確率が入っているので、**どちらの構成の成績も公開データだけで再計算できます** (例: 再現窓 9,247 レースで棄却構成は温度適用後 1.5654、封印時点の市場が 1.2818 = −0.284 nats。これが公開前に初期構成を外した根拠です)。
 - 検証に失敗する状態 (`NG:` で終了コードが 0 以外) を発見した場合、それはこのプロジェクトの終わりを意味します。再現手順つきで公開してください。
+
+
+## 現在の全体検証
+
+**全体のハッシュ連鎖は検証不合格です。** 過去のschedule外封印と未クローズ日を[台帳トップ](index.md)に記載しています。当日分の独立検証は通過していますが、全体検証の成功を意味しません。

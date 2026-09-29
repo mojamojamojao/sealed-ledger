@@ -1,0 +1,123 @@
+{
+  "chain_day_index": 118,
+  "date": "20260831",
+  "kind": "publisher_day_schedule",
+  "mode": "live",
+  "model_identity": {
+    "calibration_artifact_sha256": "7f7cf443f85c8463d1b1c664dbbf5905273dd8a56a846b28430a130a0d99bf8d",
+    "code_commit": "8e550d68a1fd96e31063a565b78cbf0579b9d15e",
+    "day_temperature": 0.93875,
+    "day_temperature_history_races": 1114,
+    "feature_schema_sha256": "493193eecf5352e079a65f16189ee5dfdd0ebf26f40d783403f311eefa008b1a",
+    "official_base": "raw",
+    "policy_sha256": "972843718adea8a5f919c55e64fb88cd1e1dc73f37a62c7c0a8407bf823223c4",
+    "production_model_sha256": "8c75a2ef0740307a5494a580a7055edf0f9d72c76fee24fb5521a5968fba2f0f",
+    "target_column": "target_win"
+  },
+  "prev_day": {
+    "date": "20260829",
+    "manifest_sha256": "02e86d2553e004d66aa8abd3e3a8e622a935358ab38f7fa384182252ffabca95"
+  },
+  "prev_day_manifest_sha256": "02e86d2553e004d66aa8abd3e3a8e622a935358ab38f7fa384182252ffabca95",
+  "race_count": 12,
+  "races": [
+    {
+      "deadline_at": "11:48",
+      "deadline_jst": "2026-08-31T11:48:00+09:00",
+      "race_id": "20260831_04_01",
+      "race_no": 1,
+      "stadium_code": "04",
+      "stadium_name": "平和島"
+    },
+    {
+      "deadline_at": "12:17",
+      "deadline_jst": "2026-08-31T12:17:00+09:00",
+      "race_id": "20260831_04_02",
+      "race_no": 2,
+      "stadium_code": "04",
+      "stadium_name": "平和島"
+    },
+    {
+      "deadline_at": "12:46",
+      "deadline_jst": "2026-08-31T12:46:00+09:00",
+      "race_id": "20260831_04_03",
+      "race_no": 3,
+      "stadium_code": "04",
+      "stadium_name": "平和島"
+    },
+    {
+      "deadline_at": "13:16",
+      "deadline_jst": "2026-08-31T13:16:00+09:00",
+      "race_id": "20260831_04_04",
+      "race_no": 4,
+      "stadium_code": "04",
+      "stadium_name": "平和島"
+    },
+    {
+      "deadline_at": "13:47",
+      "deadline_jst": "2026-08-31T13:47:00+09:00",
+      "race_id": "20260831_04_05",
+      "race_no": 5,
+      "stadium_code": "04",
+      "stadium_name": "平和島"
+    },
+    {
+      "deadline_at": "14:18",
+      "deadline_jst": "2026-08-31T14:18:00+09:00",
+      "race_id": "20260831_04_06",
+      "race_no": 6,
+      "stadium_code": "04",
+      "stadium_name": "平和島"
+    },
+    {
+      "deadline_at": "14:50",
+      "deadline_jst": "2026-08-31T14:50:00+09:00",
+      "race_id": "20260831_04_07",
+      "race_no": 7,
+      "stadium_code": "04",
+      "stadium_name": "平和島"
+    },
+    {
+      "deadline_at": "15:22",
+      "deadline_jst": "2026-08-31T15:22:00+09:00",
+      "race_id": "20260831_04_08",
+      "race_no": 8,
+      "stadium_code": "04",
+      "stadium_name": "平和島"
+    },
+    {
+      "deadline_at": "15:52",
+      "deadline_jst": "2026-08-31T15:52:00+09:00",
+      "race_id": "20260831_04_09",
+      "race_no": 9,
+      "stadium_code": "04",
+      "stadium_name": "平和島"
+    },
+    {
+      "deadline_at": "16:27",
+      "deadline_jst": "2026-08-31T16:27:00+09:00",
+      "race_id": "20260831_04_10",
+      "race_no": 10,
+      "stadium_code": "04",
+      "stadium_name": "平和島"
+    },
+    {
+      "deadline_at": "17:00",
+      "deadline_jst": "2026-08-31T17:00:00+09:00",
+      "race_id": "20260831_04_11",
+      "race_no": 11,
+      "stadium_code": "04",
+      "stadium_name": "平和島"
+    },
+    {
+      "deadline_at": "17:35",
+      "deadline_jst": "2026-08-31T17:35:00+09:00",
+      "race_id": "20260831_04_12",
+      "race_no": 12,
+      "stadium_code": "04",
+      "stadium_name": "平和島"
+    }
+  ],
+  "schema_version": 2,
+  "undeclarable_races": []
+}

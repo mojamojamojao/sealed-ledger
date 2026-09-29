@@ -1,0 +1,34 @@
+{
+  "schema_version": "publisher-historical-chain-incident/v1",
+  "kind": "append_only_historical_chain_incident",
+  "reason": "A partial immutable schedule was followed by sealed race files outside its declaration. The original files remain unchanged and the strict whole-chain verifier remains red.",
+  "days": [
+    {
+      "date": "20260830",
+      "schedule_sha256": "b5000259ed34715de0bc7b5541b88ccf4b855d24ff8cc59dfd4000db15118341",
+      "file_count": 461,
+      "inventory_sha256": "7794211850bd8680259b0a045015e199512d0888fb0f931753c490f97088dc09",
+      "expected_verification_error": "20260830: sealed race 20260830_09_01 is not on the schedule",
+      "schedule_declared": 72,
+      "sealed_payloads_outside_schedule": 62
+    },
+    {
+      "date": "20260904",
+      "schedule_sha256": "f5ede9bc86c13a372de17d348d8c9e8cbd9a99c90a3397e89fe928be6428b459",
+      "file_count": 503,
+      "inventory_sha256": "0e0b552a02c5b3ecb22f59e599404fffc30f3b768c132a9a9e4d390c73d8393f",
+      "expected_verification_error": "20260904: sealed race 20260904_24_01 is not on the schedule",
+      "schedule_declared": 120,
+      "sealed_payloads_outside_schedule": 12
+    },
+    {
+      "date": "20260914",
+      "schedule_sha256": "2e358929fbc56b1c36d4074179f4c3fc4932cc2a79c423a859446acce3efb2c9",
+      "file_count": 483,
+      "inventory_sha256": "32fd7c9edce7989ad547a85ade8b7bb57b0af81db8db643b551978d6cfc2d038",
+      "expected_verification_error": "20260914: sealed race 20260914_08_10 is not on the schedule",
+      "schedule_declared": 129,
+      "sealed_payloads_outside_schedule": 3
+    }
+  ]
+}
