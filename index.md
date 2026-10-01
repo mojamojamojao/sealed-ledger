@@ -4,7 +4,7 @@
 
 この確率で買っても、控除率を超える方法は見つかっていません。
 
-**全体のハッシュ連鎖: 検証不合格（過去の異常）**。20260930 の日次封印は独立に検証済みです。過去のschedule外封印: 20260830、20260904、20260914。[schedule外封印記録](incidents/schedule_overflow_2026.json) / [未クローズ日記録](incidents/unclosed_days_2026.json) / [検証手順](verify.md)。
+**全体のハッシュ連鎖: 検証不合格（過去の異常）**。20261001 の日次封印は独立に検証済みです。過去のschedule外封印: 20260830、20260904、20260914。[schedule外封印記録](incidents/schedule_overflow_2026.json) / [未クローズ日記録](incidents/unclosed_days_2026.json) / [検証手順](verify.md)。
 
 - [累積スコアボード](scoreboard.md)
 - [較正表 (FORWARD)](calibration_forward.md) / [較正表 (RETROSPECTIVE)](calibration_retrospective.md)
@@ -14,6 +14,7 @@
 
 ## 日次台帳
 
+- [20261001](daily/20261001.md) — FORWARD, 採点 136/146
 - [20260930](daily/20260930.md) — FORWARD, 採点 144/144
 - [20260929](daily/20260929.md) — FORWARD, 採点 279/279
 - [20260928](daily/20260928.md) — FORWARD, 採点 92/95
