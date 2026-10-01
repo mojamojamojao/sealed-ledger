@@ -13074,7 +13074,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.614444,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": 0.487037,
+    "logloss_model": 0.416078,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.659629,
+    "model_probabilities": {
+     "1": 0.659629,
+     "2": 0.112958,
+     "3": 0.057399,
+     "4": 0.087447,
+     "5": 0.076276,
+     "6": 0.006291
+    },
+    "model_probabilities_raw": {
+     "1": 0.665233,
+     "2": 0.111527,
+     "3": 0.056212,
+     "4": 0.086074,
+     "5": 0.074955,
+     "6": 0.005999
+    },
+    "model_probabilities_staged": {
+     "1": 0.367193,
+     "2": 0.187194,
+     "3": 0.124484,
+     "4": 0.173218,
+     "5": 0.147911,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_23_03",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     1
+    ]
+   }
   },
   "20261001_23_04": {
    "payload": {
@@ -13122,7 +13166,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.368667,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": 0.997861,
+    "logloss_model": 1.186231,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.30537,
+    "model_probabilities": {
+     "1": 0.30537,
+     "2": 0.173555,
+     "3": 0.396842,
+     "4": 0.019539,
+     "5": 0.032335,
+     "6": 0.072359
+    },
+    "model_probabilities_raw": {
+     "1": 0.306184,
+     "2": 0.172841,
+     "3": 0.399155,
+     "4": 0.018955,
+     "5": 0.031558,
+     "6": 0.071307
+    },
+    "model_probabilities_staged": {
+     "1": 0.311972,
+     "2": 0.242687,
+     "3": 0.37513,
+     "4": 0.0,
+     "5": 0.004721,
+     "6": 0.06549
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_23_04",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     1
+    ]
+   }
   },
   "20261001_23_05": {
    "payload": {
@@ -13170,7 +13258,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.567179,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": 0.56708,
+    "logloss_model": 0.373541,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.688293,
+    "model_probabilities": {
+     "1": 0.688293,
+     "2": 0.089604,
+     "3": 0.104003,
+     "4": 0.014018,
+     "5": 0.0,
+     "6": 0.104082
+    },
+    "model_probabilities_raw": {
+     "1": 0.693481,
+     "2": 0.088094,
+     "3": 0.102434,
+     "4": 0.013478,
+     "5": 0.0,
+     "6": 0.102513
+    },
+    "model_probabilities_staged": {
+     "1": 0.238312,
+     "2": 0.202165,
+     "3": 0.202165,
+     "4": 0.155193,
+     "5": 0.0,
+     "6": 0.202165
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_23_05",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     1
+    ]
+   }
   },
   "20261001_23_06": {
    "payload": {
@@ -13218,15 +13350,107 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.40963,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": 0.892501,
+    "logloss_model": 1.672793,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.187722,
+    "model_probabilities": {
+     "1": 0.298708,
+     "2": 0.217483,
+     "3": 0.237109,
+     "4": 0.058978,
+     "5": 0.187722,
+     "6": 0.0
+    },
+    "model_probabilities_raw": {
+     "1": 0.299807,
+     "2": 0.217453,
+     "3": 0.237323,
+     "4": 0.058052,
+     "5": 0.187365,
+     "6": 0.0
+    },
+    "model_probabilities_staged": {
+     "1": 0.20664,
+     "2": 0.202543,
+     "3": 0.202543,
+     "4": 0.185731,
+     "5": 0.202543,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_23_06",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     5
+    ]
+   }
   },
   "20261001_23_07": {
    "payload": null,
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.567179,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": null,
+    "logloss_model": null,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": null,
+    "model_probabilities": null,
+    "model_probabilities_raw": null,
+    "model_probabilities_staged": null,
+    "non_runnable_lanes": [
+     1
+    ],
+    "official_base": null,
+    "race_id": "20261001_23_07",
+    "sealed": false,
+    "status": "unsealed",
+    "temperature": null,
+    "winner_lanes": [
+     2
+    ]
+   }
   },
   "20261001_23_08": {
    "payload": null,
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.058987,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": null,
+    "logloss_model": null,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": null,
+    "model_probabilities": null,
+    "model_probabilities_raw": null,
+    "model_probabilities_staged": null,
+    "non_runnable_lanes": [],
+    "official_base": null,
+    "race_id": "20261001_23_08",
+    "sealed": false,
+    "status": "unsealed",
+    "temperature": null,
+    "winner_lanes": [
+     3
+    ]
+   }
   },
   "20261001_23_09": {
    "payload": {
@@ -13274,7 +13498,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.491556,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": 0.710179,
+    "logloss_model": 0.921256,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.398019,
+    "model_probabilities": {
+     "1": 0.309008,
+     "2": 0.155222,
+     "3": 0.398019,
+     "4": 0.062637,
+     "5": 0.064205,
+     "6": 0.010909
+    },
+    "model_probabilities_raw": {
+     "1": 0.309903,
+     "2": 0.154389,
+     "3": 0.400387,
+     "4": 0.061625,
+     "5": 0.063186,
+     "6": 0.01051
+    },
+    "model_probabilities_staged": {
+     "1": 0.283427,
+     "2": 0.220481,
+     "3": 0.336303,
+     "4": 0.077345,
+     "5": 0.082444,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_23_09",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     3
+    ]
+   }
   },
   "20261001_23_10": {
    "payload": {
@@ -13322,7 +13590,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.029852,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": 3.511503,
+    "logloss_model": 2.663584,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.069698,
+    "model_probabilities": {
+     "1": 0.341769,
+     "2": 0.300351,
+     "3": 0.20194,
+     "4": 0.06967,
+     "5": 0.069698,
+     "6": 0.016572
+    },
+    "model_probabilities_raw": {
+     "1": 0.343477,
+     "2": 0.301382,
+     "3": 0.201669,
+     "4": 0.068692,
+     "5": 0.06872,
+     "6": 0.01606
+    },
+    "model_probabilities_staged": {
+     "1": 0.311419,
+     "2": 0.309789,
+     "3": 0.262802,
+     "4": 0.057995,
+     "5": 0.057995,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_23_10",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     5
+    ]
+   }
   },
   "20261001_23_11": {
    "payload": {
@@ -13370,7 +13682,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.16029,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": 1.830771,
+    "logloss_model": 2.85068,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.057805,
+    "model_probabilities": {
+     "1": 0.648286,
+     "2": 0.057805,
+     "3": 0.110196,
+     "4": 0.115237,
+     "5": 0.037062,
+     "6": 0.031414
+    },
+    "model_probabilities_raw": {
+     "1": 0.653988,
+     "2": 0.056644,
+     "3": 0.108823,
+     "4": 0.113863,
+     "5": 0.036124,
+     "6": 0.030558
+    },
+    "model_probabilities_staged": {
+     "1": 0.636078,
+     "2": 0.043362,
+     "3": 0.15555,
+     "4": 0.15555,
+     "5": 0.00473,
+     "6": 0.00473
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_23_11",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     2
+    ]
+   }
   },
   "20261001_23_12": {
    "payload": {
@@ -13418,7 +13774,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": true,
+    "closing_p_winner": null,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": null,
+    "logloss_model": 0.219194,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.803166,
+    "model_probabilities": {
+     "1": 0.803166,
+     "2": 0.037196,
+     "3": 0.056253,
+     "4": 0.026455,
+     "5": 0.07693,
+     "6": 0.0
+    },
+    "model_probabilities_raw": {
+     "1": 0.808273,
+     "2": 0.036076,
+     "3": 0.05483,
+     "4": 0.025554,
+     "5": 0.075267,
+     "6": 0.0
+    },
+    "model_probabilities_staged": {
+     "1": 0.239118,
+     "2": 0.186011,
+     "3": 0.186011,
+     "4": 0.186011,
+     "5": 0.202849,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_23_12",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     1
+    ]
+   }
   },
   "20261001_24_01": {
    "payload": {
@@ -13466,7 +13866,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.087778,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": 2.432944,
+    "logloss_model": 3.388242,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.033768,
+    "model_probabilities": {
+     "1": 0.650722,
+     "2": 0.088434,
+     "3": 0.124811,
+     "4": 0.089187,
+     "5": 0.013078,
+     "6": 0.033768
+    },
+    "model_probabilities_raw": {
+     "1": 0.656255,
+     "2": 0.087072,
+     "3": 0.123399,
+     "4": 0.087823,
+     "5": 0.012585,
+     "6": 0.032866
+    },
+    "model_probabilities_staged": {
+     "1": 0.453701,
+     "2": 0.151681,
+     "3": 0.19584,
+     "4": 0.157062,
+     "5": 0.0,
+     "6": 0.041716
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_24_01",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     6
+    ]
+   }
   },
   "20261001_24_02": {
    "payload": {
@@ -13514,7 +13958,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.460833,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": 0.77472,
+    "logloss_model": 0.744598,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.474925,
+    "model_probabilities": {
+     "1": 0.474925,
+     "2": 0.146752,
+     "3": 0.181064,
+     "4": 0.100007,
+     "5": 0.004892,
+     "6": 0.09236
+    },
+    "model_probabilities_raw": {
+     "1": 0.478784,
+     "2": 0.145871,
+     "3": 0.180432,
+     "4": 0.098949,
+     "5": 0.004668,
+     "6": 0.091296
+    },
+    "model_probabilities_staged": {
+     "1": 0.293991,
+     "2": 0.19274,
+     "3": 0.210187,
+     "4": 0.151541,
+     "5": 0.0,
+     "6": 0.151541
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_24_02",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     1
+    ]
+   }
   },
   "20261001_24_03": {
    "payload": {
@@ -13562,7 +14050,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.179837,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": 1.715704,
+    "logloss_model": 0.940222,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.390541,
+    "model_probabilities": {
+     "1": 0.390541,
+     "2": 0.295768,
+     "3": 0.208604,
+     "4": 0.029575,
+     "5": 0.005868,
+     "6": 0.069644
+    },
+    "model_probabilities_raw": {
+     "1": 0.392571,
+     "2": 0.296315,
+     "3": 0.208114,
+     "4": 0.028821,
+     "5": 0.005608,
+     "6": 0.068571
+    },
+    "model_probabilities_staged": {
+     "1": 0.291462,
+     "2": 0.289938,
+     "3": 0.250939,
+     "4": 0.040219,
+     "5": 0.0,
+     "6": 0.127442
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_24_03",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     1
+    ]
+   }
   },
   "20261001_24_04": {
    "payload": {
@@ -13610,7 +14142,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.230417,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": 1.467865,
+    "logloss_model": 1.32189,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.266631,
+    "model_probabilities": {
+     "1": 0.342104,
+     "2": 0.266631,
+     "3": 0.27721,
+     "4": 0.030991,
+     "5": 0.083064,
+     "6": 0.0
+    },
+    "model_probabilities_raw": {
+     "1": 0.343402,
+     "2": 0.266842,
+     "3": 0.277559,
+     "4": 0.030224,
+     "5": 0.081973,
+     "6": 0.0
+    },
+    "model_probabilities_staged": {
+     "1": 0.214476,
+     "2": 0.214477,
+     "3": 0.214477,
+     "4": 0.163797,
+     "5": 0.192773,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_24_04",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     2
+    ]
+   }
   },
   "20261001_24_05": {
    "payload": {
@@ -13658,7 +14234,53 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.230417,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": 4.062207,
+    "logloss_market_closing": 1.467865,
+    "logloss_model": 2.454769,
+    "market_p_winner": 0.017211,
+    "mode": "live",
+    "model_p_winner": 0.085883,
+    "model_probabilities": {
+     "1": 0.676814,
+     "2": 0.085883,
+     "3": 0.081767,
+     "4": 0.021887,
+     "5": 0.04182,
+     "6": 0.091829
+    },
+    "model_probabilities_raw": {
+     "1": 0.682679,
+     "2": 0.084505,
+     "3": 0.080408,
+     "4": 0.021185,
+     "5": 0.040795,
+     "6": 0.090428
+    },
+    "model_probabilities_staged": {
+     "1": 0.587507,
+     "2": 0.12691,
+     "3": 0.106581,
+     "4": 0.0,
+     "5": 0.040051,
+     "6": 0.138951
+    },
+    "non_runnable_lanes": [
+     1
+    ],
+    "official_base": "raw",
+    "race_id": "20261001_24_05",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     2
+    ]
+   }
   },
   "20261001_24_06": {
    "payload": {
@@ -13706,7 +14328,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.38807,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": 0.94657,
+    "logloss_model": 0.938064,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.391385,
+    "model_probabilities": {
+     "1": 0.391385,
+     "2": 0.296109,
+     "3": 0.202078,
+     "4": 0.02833,
+     "5": 0.052607,
+     "6": 0.029491
+    },
+    "model_probabilities_raw": {
+     "1": 0.393599,
+     "2": 0.296787,
+     "3": 0.201614,
+     "4": 0.027605,
+     "5": 0.051644,
+     "6": 0.028751
+    },
+    "model_probabilities_staged": {
+     "1": 0.386427,
+     "2": 0.319765,
+     "3": 0.271265,
+     "4": 0.0,
+     "5": 0.022543,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_24_06",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     1
+    ]
+   }
   },
   "20261001_24_07": {
    "payload": {
@@ -13754,7 +14420,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": true,
+    "closing_p_winner": null,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": null,
+    "logloss_model": 0.192435,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.824948,
+    "model_probabilities": {
+     "1": 0.824948,
+     "2": 0.067435,
+     "3": 0.077181,
+     "4": 0.023323,
+     "5": 0.005094,
+     "6": 0.002019
+    },
+    "model_probabilities_raw": {
+     "1": 0.829583,
+     "2": 0.065803,
+     "3": 0.075436,
+     "4": 0.02247,
+     "5": 0.004819,
+     "6": 0.001889
+    },
+    "model_probabilities_staged": {
+     "1": 0.47116,
+     "2": 0.206423,
+     "3": 0.209557,
+     "4": 0.090843,
+     "5": 0.022017,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_24_07",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     1
+    ]
+   }
   },
   "20261001_24_08": {
    "payload": {
@@ -13802,7 +14512,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.075238,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": 3.809647,
+    "logloss_market_closing": 2.587099,
+    "logloss_model": 3.357621,
+    "market_p_winner": 0.022156,
+    "mode": "live",
+    "model_p_winner": 0.034818,
+    "model_probabilities": {
+     "1": 0.669646,
+     "2": 0.068267,
+     "3": 0.06123,
+     "4": 0.158295,
+     "5": 0.034818,
+     "6": 0.007744
+    },
+    "model_probabilities_raw": {
+     "1": 0.674992,
+     "2": 0.06695,
+     "3": 0.05997,
+     "4": 0.156818,
+     "5": 0.033871,
+     "6": 0.007399
+    },
+    "model_probabilities_staged": {
+     "1": 0.411149,
+     "2": 0.15261,
+     "3": 0.139385,
+     "4": 0.246683,
+     "5": 0.050173,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_24_08",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     5
+    ]
+   }
   },
   "20261001_24_09": {
    "payload": {
@@ -13850,7 +14604,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.670303,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": 0.140564,
+    "logloss_market_closing": 0.400025,
+    "logloss_model": 0.300319,
+    "market_p_winner": 0.868868,
+    "mode": "live",
+    "model_p_winner": 0.740582,
+    "model_probabilities": {
+     "1": 0.740582,
+     "2": 0.094507,
+     "3": 0.089747,
+     "4": 0.055975,
+     "5": 0.009319,
+     "6": 0.00987
+    },
+    "model_probabilities_raw": {
+     "1": 0.745986,
+     "2": 0.09287,
+     "3": 0.088138,
+     "4": 0.05466,
+     "5": 0.008906,
+     "6": 0.00944
+    },
+    "model_probabilities_staged": {
+     "1": 0.52516,
+     "2": 0.182383,
+     "3": 0.182383,
+     "4": 0.110074,
+     "5": 0.0,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_24_09",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     1
+    ]
+   }
   },
   "20261001_24_10": {
    "payload": {
@@ -13898,7 +14696,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.101005,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": 3.730535,
+    "logloss_market_closing": 2.292585,
+    "logloss_model": 2.620039,
+    "market_p_winner": 0.02398,
+    "mode": "live",
+    "model_p_winner": 0.0728,
+    "model_probabilities": {
+     "1": 0.614642,
+     "2": 0.104728,
+     "3": 0.032309,
+     "4": 0.105393,
+     "5": 0.070128,
+     "6": 0.0728
+    },
+    "model_probabilities_raw": {
+     "1": 0.620341,
+     "2": 0.103474,
+     "3": 0.031474,
+     "4": 0.10414,
+     "5": 0.068956,
+     "6": 0.071615
+    },
+    "model_probabilities_staged": {
+     "1": 0.621418,
+     "2": 0.134235,
+     "3": 0.004621,
+     "4": 0.134235,
+     "5": 0.048319,
+     "6": 0.057172
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_24_10",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     6
+    ]
+   }
   },
   "20261001_24_11": {
    "payload": {
@@ -13946,7 +14788,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.614444,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": null,
+    "logloss_market_closing": 0.487037,
+    "logloss_model": 0.406392,
+    "market_p_winner": null,
+    "mode": "live",
+    "model_p_winner": 0.666049,
+    "model_probabilities": {
+     "1": 0.666049,
+     "2": 0.185669,
+     "3": 0.057718,
+     "4": 0.064537,
+     "5": 0.009674,
+     "6": 0.016353
+    },
+    "model_probabilities_raw": {
+     "1": 0.671068,
+     "2": 0.184218,
+     "3": 0.056469,
+     "4": 0.063224,
+     "5": 0.009263,
+     "6": 0.015758
+    },
+    "model_probabilities_staged": {
+     "1": 0.470249,
+     "2": 0.269771,
+     "3": 0.115059,
+     "4": 0.137006,
+     "5": 0.0,
+     "6": 0.007915
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_24_11",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     1
+    ]
+   }
   },
   "20261001_24_12": {
    "payload": {
@@ -13994,7 +14880,51 @@
     "temperature": 0.988125,
     "temperature_history_races": 5066
    },
-   "settlement": null
+   "settlement": {
+    "closing_floor_payout": false,
+    "closing_p_winner": 0.32058,
+    "date": "20261001",
+    "dead_heat": false,
+    "logloss_market": 3.046941,
+    "logloss_market_closing": 1.137623,
+    "logloss_model": 1.5563,
+    "market_p_winner": 0.047504,
+    "mode": "live",
+    "model_p_winner": 0.210915,
+    "model_probabilities": {
+     "1": 0.63531,
+     "2": 0.077096,
+     "3": 0.210915,
+     "4": 0.02751,
+     "5": 0.040344,
+     "6": 0.008825
+    },
+    "model_probabilities_raw": {
+     "1": 0.640097,
+     "2": 0.075734,
+     "3": 0.209708,
+     "4": 0.026692,
+     "5": 0.039323,
+     "6": 0.008446
+    },
+    "model_probabilities_staged": {
+     "1": 0.433672,
+     "2": 0.16644,
+     "3": 0.28949,
+     "4": 0.046398,
+     "5": 0.064,
+     "6": 0.0
+    },
+    "non_runnable_lanes": [],
+    "official_base": "raw",
+    "race_id": "20261001_24_12",
+    "sealed": true,
+    "status": "settled",
+    "temperature": 0.988125,
+    "winner_lanes": [
+     3
+    ]
+   }
   }
  },
  "schedule": {
