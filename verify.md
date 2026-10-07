@@ -5,7 +5,7 @@
 ```bash
 git clone --depth=1 https://github.com/mojamojamojao/sealed-ledger ledger && cd ledger
 python verify_chain.py            # 全日のハッシュ連鎖と宣言レース数を再計算して照合
-openssl ts -verify -data daily/20261003/races/20261003_02_01.json -in daily/20261003/races/20261003_02_01.json.tsr -CAfile "$(python -c 'import certifi, sys; sys.stdout.write(certifi.where())')"
+openssl ts -verify -data daily/20261007/races/20261007_01_01.json -in daily/20261007/races/20261007_01_01.json.tsr -CAfile "$(python -c 'import certifi, sys; sys.stdout.write(certifi.where())')"
 ```
 
 - `verify_chain.py` は封印済み JSON のバイト列から sha256 を再計算し、日次マニフェスト・前日リンク・宣言レース数との一致を全日分検査します。スクリプト本体はこのリポジトリに同梱するので、隠れた処理はありません。標準ライブラリだけで動きます。
@@ -21,3 +21,7 @@ openssl ts -verify -data daily/20261003/races/20261003_02_01.json -in daily/2026
 ## 現在の全体検証
 
 **全体のハッシュ連鎖は検証不合格です。** 過去のschedule外封印と未クローズ日を[台帳トップ](index.md)に記載しています。当日分の独立検証は通過していますが、全体検証の成功を意味しません。
+
+締切以降に記録されたタイムスタンプが 20261006 より前の日にあります (payload 25 件・market 15 件、対象日 20260930、20261001、20261004、20261005)。検証の失敗としては扱わず、歴史としてそのまま残しています。日付別の件数は[完全性](completeness.md)に載せています。
+
+日の締めの記録 (manifest.json) を書いた後に封印された記録が 20261006 より前の日にあります (payload 1 件・market 1 件、対象日 20261004)。manifest に載っていないため、検証の失敗としては扱わず、歴史としてそのまま残しています。ファイル名は[完全性](completeness.md)に載せています。

@@ -112,7 +112,7 @@ def verify_day(day_dir: Path, expected_prev: str) -> str | None:
     races_dir = day_dir / "races"
     if races_dir.exists():
         for path in sorted(races_dir.glob("*.json")):
-            if path.name.endswith(".tsa_failed.json") or path.name.endswith(".tsr.json"):
+            if ".json." in path.name:
                 continue
             record = load(path)
             race_id = str(record.get("race_id"))
@@ -124,7 +124,20 @@ def verify_day(day_dir: Path, expected_prev: str) -> str | None:
                 fail(f"{date}: sealed race {race_id} is not on the schedule")
             if record.get("schedule_sha256") != schedule_sha:
                 fail(f"{date}: {path.name} bound to a different schedule")
+            if schedule.get("mode") == "live":
+                metadata_path = path.with_suffix(path.suffix + ".tsr.json")
+                recorded_time = load(metadata_path).get("timestamp_utc") if metadata_path.exists() else None
+                if recorded_time is not None:
+                    try:
+                        stamp = datetime.fromisoformat(recorded_time)
+                        close = datetime.fromisoformat(deadlines[race_id])
+                        if stamp.tzinfo is None or close.tzinfo is None or stamp >= close:
+                            raise ValueError("not before deadline")
+                    except (TypeError, ValueError):
+                        fail(f"{date}: {race_id} recorded TSA time not before deadline")
             if not is_market:
+                if path.with_suffix(path.suffix + ".seal_failed.json").exists():
+                    fail(f"{date}: {race_id} has a retained seal failure")
                 # The promise: nothing is sealed after its deadline. Live seals
                 # must be strictly earlier; retrospective days are rebuilt at
                 # the betting close, so equality is expected there.
@@ -136,6 +149,14 @@ def verify_day(day_dir: Path, expected_prev: str) -> str | None:
                     as_of == deadline and str(record.get("mode")) == "live"
                 ):
                     fail(f"{date}: {race_id} sealed at {as_of}, not before deadline {deadline}")
+                if record.get("mode") == "live" and record.get("seal_started_at"):
+                    try:
+                        started = datetime.fromisoformat(record["seal_started_at"])
+                        close = datetime.fromisoformat(deadline)
+                        if started.tzinfo is None or close.tzinfo is None or started >= close:
+                            raise ValueError("not before deadline")
+                    except (TypeError, ValueError):
+                        fail(f"{date}: {race_id} seal_started_at not before deadline")
             if not is_market:
                 # Six lanes, no negatives, sums to one. Without this, a payload
                 # whose numbers were garbage would still verify as long as its
@@ -245,6 +266,7 @@ def main() -> int:
         cursor += timedelta(days=1)
     if gaps:
         print(f"calendar holes (absent days are part of the record): {', '.join(gaps)}")
+    print("Physical pre-deadline sealing is not authenticated by this hash-only checker; verify RFC3161 tokens separately.")
     print(f"CHAIN OK: {len(days)} days verified, {len(gaps)} calendar holes")
     return 0
 
