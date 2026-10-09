@@ -1,0 +1,46 @@
+{
+  "as_of": "2026-10-09T17:15:11+09:00",
+  "code_commit": "b74115a1456ffc74d92db59ad20ff28e2a6bf94a",
+  "deadline_jst": "2026-10-09T17:27:00+09:00",
+  "kind": "publisher_race_payload",
+  "market_sha256": "c74a11fffe9dc69546226734f4040d817959668d6326bced6d2bdccbfddc59c2",
+  "market_snapshot_at": "2026-10-09T17:12:09",
+  "marks": {
+    "1": "◎",
+    "2": "▲",
+    "3": "△",
+    "5": "○"
+  },
+  "mode": "live",
+  "official_base": "raw",
+  "probabilities": {
+    "1": 0.550071,
+    "2": 0.077978,
+    "3": 0.076463,
+    "4": 0.046774,
+    "5": 0.242718,
+    "6": 0.005996
+  },
+  "probabilities_raw": {
+    "1": 0.554315,
+    "2": 0.076757,
+    "3": 0.075248,
+    "4": 0.04576,
+    "5": 0.242198,
+    "6": 0.005722
+  },
+  "probabilities_staged": {
+    "1": 0.352782,
+    "2": 0.152464,
+    "3": 0.145264,
+    "4": 0.084917,
+    "5": 0.264573,
+    "6": 0.0
+  },
+  "race_id": "20261009_07_06",
+  "schedule_sha256": "b72d856195ae5da069559c5804c36bd386d97c7c22b758c4daab25ee572f69b5",
+  "schema_version": 2,
+  "seal_started_at": "2026-10-09T17:15:30.425711+09:00",
+  "temperature": 0.988125,
+  "temperature_history_races": 6022
+}
